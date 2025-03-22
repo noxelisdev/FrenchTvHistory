@@ -805,7 +805,20 @@ function getDatabase(month) {
         case "1993-01":
         case "1993-02":
         case "1993-03":
+            return [
+                "tf1_04",
+                "france2_01",
+                "france3_01",
+                "arte_01"
+            ];
         case "1993-04":
+            return [
+                "tf1_04",
+                "france2_01",
+                "france3_01",
+                "teleemploi_01",
+                "arte_01"
+            ];
         case "1993-05":
         case "1993-06":
         case "1993-07":
