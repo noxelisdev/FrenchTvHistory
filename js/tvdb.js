@@ -594,7 +594,8 @@ function getDatabase(month) {
         case "1983-08":
             return [
                 "tf1_01",
-                "antenne2_01"
+                "antenne2_01",
+                "fr3_01"
             ];
         case "1983-09":
         case "1983-10":
@@ -614,7 +615,8 @@ function getDatabase(month) {
         case "1984-12":
             return [
                 "tf1_01",
-                "antenne2_02"
+                "antenne2_02",
+                "fr3_01"
             ];
         case "1985-01":
         case "1985-02":
@@ -633,9 +635,15 @@ function getDatabase(month) {
         case "1986-03":
             return [
                 "tf1_02",
-                "antenne2_02"
+                "antenne2_02",
+                "fr3_01"
             ];
         case "1986-04":
+            return [
+                "tf1_02",
+                "antenne2_03",
+                "fr3_01"
+            ]
         case "1986-05":
         case "1986-06":
         case "1986-07":
@@ -646,7 +654,8 @@ function getDatabase(month) {
         case "1986-12":
             return [
                 "tf1_02",
-                "antenne2_03"
+                "antenne2_03",
+                "fr3_02"
             ];
         case "1987-01":
         case "1987-02":
@@ -658,7 +667,8 @@ function getDatabase(month) {
         case "1987-08":
             return [
                 "tf1_03",
-                "antenne2_03"
+                "antenne2_03",
+                "fr3_02"
             ];
         case "1987-09":
         case "1987-10":
@@ -666,7 +676,8 @@ function getDatabase(month) {
         case "1987-12":
             return [
                 "tf1_03",
-                "antenne2_04"
+                "antenne2_04",
+                "fr3_02"
             ];
         case "1988-01":
         case "1988-02":
@@ -695,7 +706,8 @@ function getDatabase(month) {
         case "1990-01":
             return [
                 "tf1_03",
-                "antenne2_05"
+                "antenne2_05",
+                "fr3_03"
             ];
         case "1990-02":
         case "1990-03":
@@ -708,10 +720,16 @@ function getDatabase(month) {
         case "1990-10":
             return [
                 "tf1_04",
-                "antenne2_05"
+                "antenne2_05",
+                "fr3_03"
             ];
         case "1990-11":
         case "1990-12":
+            return [
+                "tf1_04",
+                "antenne2_06",
+                "fr3_03"
+            ]
         case "1991-01":
         case "1991-02":
         case "1991-03":
@@ -734,7 +752,8 @@ function getDatabase(month) {
         case "1992-08":
             return [
                 "tf1_04",
-                "antenne2_06"
+                "antenne2_06",
+                "fr3_04"
             ];
         case "1992-09":
         case "1992-10":
