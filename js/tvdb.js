@@ -867,6 +867,11 @@ function getDatabase(month) {
         case "2001-10":
         case "2001-11":
         case "2001-12":
+            return [
+                "tf1_04",
+                "france2_01",
+                "france3_01"
+            ];
         case "2002-01":
         case "2002-02":
         case "2002-03":
@@ -922,7 +927,9 @@ function getDatabase(month) {
         case "2006-05":
         case "2006-06":
             return [
-                "tf1_04"
+                "tf1_04",
+                "france2_02",
+                "france3_02"
             ];
         case "2006-07":
         case "2006-08":
@@ -945,6 +952,11 @@ function getDatabase(month) {
         case "2008-01":
         case "2008-02":
         case "2008-03":
+            return [
+                "tf1_05",
+                "france2_02",
+                "france3_02"
+            ];
         case "2008-04":
         case "2008-05":
         case "2008-06":
@@ -1012,7 +1024,9 @@ function getDatabase(month) {
         case "2013-08":
         case "2013-09":
             return [
-                "tf1_05"
+                "tf1_05",
+                "france2_03",
+                "france3_03"
             ];
         case "2013-10":
         case "2013-11":
@@ -1066,6 +1080,11 @@ function getDatabase(month) {
         case "2017-11":
         case "2017-12":
         case "2018-01":
+            return [
+                "tf1_06",
+                "france2_03",
+                "france3_03"
+            ];
         case "2018-02":
         case "2018-03":
         case "2018-04":
@@ -1153,7 +1172,9 @@ function getDatabase(month) {
         case "2025-02":
         case "2025-03":
             return [
-                "tf1_06"
+                "tf1_06",
+                "france2_04",
+                "france3_04"
             ];
     }
 }
