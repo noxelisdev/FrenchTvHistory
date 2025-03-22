@@ -19,7 +19,6 @@ function updateLabel(year, month) {
 
 function updateList(year, month) {
     const selectedMonth = String(year) + "-" + String(month).padStart(2, "0");
-    console.log(year, month);
 
     Array.prototype.forEach.call(document.getElementsByClassName("tv"), function(tv) {
         tv.style.display = "none";
