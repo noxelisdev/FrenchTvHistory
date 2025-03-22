@@ -825,6 +825,11 @@ function getDatabase(month) {
         case "1996-03":
         case "1996-04":
         case "1996-05":
+            return [
+                "tf1_04",
+                "france2_01",
+                "france3_01"
+            ];
         case "1996-06":
         case "1996-07":
         case "1996-08":
@@ -890,12 +895,19 @@ function getDatabase(month) {
         case "2001-08":
         case "2001-09":
         case "2001-10":
+            return [
+                "tf1_04",
+                "france2_01",
+                "france3_01",
+                "festival_01"
+            ];
         case "2001-11":
         case "2001-12":
             return [
                 "tf1_04",
                 "france2_01",
-                "france3_01"
+                "france3_01",
+                "festival_02"
             ];
         case "2002-01":
         case "2002-02":
@@ -939,7 +951,8 @@ function getDatabase(month) {
             return [
                 "tf1_04",
                 "france2_02",
-                "france3_02"
+                "france3_02",
+                "festival_02"
             ];
         case "2005-04":
         case "2005-05":
