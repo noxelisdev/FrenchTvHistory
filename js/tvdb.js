@@ -1306,13 +1306,38 @@ function getDatabase(month) {
         case "2020-11":
         case "2020-12":
         case "2021-01":
+            return [
+                "tf1_06",
+                "france2_04",
+                "france3_04",
+                "france4_03",
+                "france5_03",
+                "arte_05"
+            ];
         case "2021-02":
         case "2021-03":
         case "2021-04":
+            return [
+                "tf1_06",
+                "france2_04",
+                "france3_04",
+                "france4_03",
+                "france5_03",
+                "arte_05",
+                "culturebox_01"
+            ];
         case "2021-05":
         case "2021-06":
         case "2021-07":
         case "2021-08":
+            return [
+                "tf1_06",
+                "france2_04",
+                "france3_04",
+                "france4_04",
+                "france5_03",
+                "arte_05"
+            ];
         case "2021-09":
         case "2021-10":
         case "2021-11":
@@ -1360,7 +1385,7 @@ function getDatabase(month) {
                 "tf1_06",
                 "france2_04",
                 "france3_04",
-                "france4_03",
+                "france4_05",
                 "france5_03",
                 "arte_05"
             ];
