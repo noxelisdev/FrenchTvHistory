@@ -1153,6 +1153,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_01",
+                "w9_01",
                 "festival_02",
                 "franceO_01"
             ];
@@ -1180,6 +1181,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_01",
+                "w9_01",
                 "france4_01",
                 "franceO_01"
             ];
@@ -1198,6 +1200,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_01",
+                "w9_01",
                 "france4_01",
                 "franceO_01"
             ];
@@ -1216,6 +1219,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_02",
+                "w9_01",
                 "france4_01",
                 "franceO_01"
             ];
@@ -1237,6 +1241,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_03",
+                "w9_01",
                 "france4_01",
                 "franceO_01"
             ];
@@ -1254,6 +1259,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_03",
+                "w9_01",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1278,6 +1284,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_04",
+                "w9_01",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1292,6 +1299,7 @@ function getDatabase(month) {
                 "m6_04",
                 "arte_03",
                 "direct8_05",
+                "w9_01",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1299,6 +1307,19 @@ function getDatabase(month) {
         case "2009-12":
         case "2010-01":
         case "2010-02":
+            return [
+                "tf1_05",
+                "france2_03",
+                "france3_03",
+                "canalplus_02",
+                "france5_02",
+                "m6_05",
+                "arte_03",
+                "direct8_05",
+                "w9_01",
+                "france4_02",
+                "franceO_02"
+            ];
         case "2010-03":
         case "2010-04":
         case "2010-05":
@@ -1320,6 +1341,7 @@ function getDatabase(month) {
                 "m6_05",
                 "arte_03",
                 "direct8_05",
+                "w9_02",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1351,10 +1373,24 @@ function getDatabase(month) {
                 "m6_05",
                 "arte_04",
                 "direct8_05",
+                "w9_02",
                 "france4_02",
                 "franceO_02"
             ];
         case "2012-10":
+            return [
+                "tf1_05",
+                "france2_03",
+                "france3_03",
+                "canalplus_02",
+                "france5_02",
+                "m6_05",
+                "arte_04",
+                "d8_01",
+                "w9_02",
+                "france4_02",
+                "franceO_02"
+            ];
         case "2012-11":
         case "2012-12":
         case "2013-01":
@@ -1375,6 +1411,7 @@ function getDatabase(month) {
                 "m6_05",
                 "arte_04",
                 "d8_01",
+                "w9_03",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1422,6 +1459,7 @@ function getDatabase(month) {
                 "m6_05",
                 "arte_04",
                 "d8_01",
+                "w9_03",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1441,6 +1479,7 @@ function getDatabase(month) {
                 "m6_05",
                 "arte_04",
                 "c8_01",
+                "w9_03",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1463,6 +1502,7 @@ function getDatabase(month) {
                 "m6_05",
                 "arte_05",
                 "c8_01",
+                "w9_03",
                 "france4_02",
                 "franceO_02"
             ];
@@ -1487,6 +1527,19 @@ function getDatabase(month) {
         case "2019-08":
         case "2019-09":
         case "2019-10":
+            return [
+                "tf1_06",
+                "france2_04",
+                "france3_04",
+                "canalplus_02",
+                "france5_03",
+                "m6_05",
+                "arte_05",
+                "c8_01",
+                "w9_03",
+                "france4_03",
+                "franceO_03"
+            ];
         case "2019-11":
         case "2019-12":
         case "2020-01":
@@ -1506,6 +1559,7 @@ function getDatabase(month) {
                 "m6_05",
                 "arte_05",
                 "c8_01",
+                "w9_04",
                 "france4_03",
                 "franceO_03"
             ];
@@ -1523,6 +1577,7 @@ function getDatabase(month) {
                 "m6_06",
                 "arte_05",
                 "c8_01",
+                "w9_04",
                 "france4_03"
             ];
         case "2021-02":
@@ -1537,6 +1592,7 @@ function getDatabase(month) {
                 "m6_06",
                 "arte_05",
                 "c8_01",
+                "w9_04",
                 "france4_03",
                 "culturebox_01"
             ];
@@ -1553,6 +1609,7 @@ function getDatabase(month) {
                 "m6_06",
                 "arte_05",
                 "c8_01",
+                "w9_04",
                 "france4_04"
             ];
         case "2021-09":
@@ -1606,6 +1663,7 @@ function getDatabase(month) {
                 "m6_06",
                 "arte_05",
                 "c8_01",
+                "w9_04",
                 "france4_05"
             ];
         case "2025-03":
@@ -1617,6 +1675,7 @@ function getDatabase(month) {
                 "france5_03",
                 "m6_06",
                 "arte_05",
+                "w9_04",
                 "france4_05"
             ];
     }
