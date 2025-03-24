@@ -1327,6 +1327,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_01",
+                "nrj12_01",
                 "lcp_03",
                 "festival_02",
                 "franceO_01"
@@ -1352,6 +1353,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_01",
+                "nrj12_01",
                 "lcp_03",
                 "france4_01",
                 "franceO_01"
@@ -1374,6 +1376,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_01",
+                "nrj12_01",
                 "lcp_04",
                 "france4_01",
                 "franceO_01"
@@ -1396,6 +1399,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_01",
+                "nrj12_01",
                 "lcp_04",
                 "france4_01",
                 "franceO_01"
@@ -1418,12 +1422,30 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_01",
+                "nrj12_01",
                 "lcp_05",
                 "france4_01",
                 "franceO_01"
             ];
         case "2007-07":
         case "2007-08":
+            return [
+                "tf1_05",
+                "france2_02",
+                "france3_02",
+                "canalplus_02",
+                "france5_01",
+                "m6_04",
+                "arte_03",
+                "direct8_03",
+                "w9_01",
+                "tmc_12",
+                "nt1_01",
+                "nrj12_01",
+                "lcp_05",
+                "france4_01",
+                "franceO_01"
+            ];
         case "2007-09":
         case "2007-10":
         case "2007-11":
@@ -1443,6 +1465,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_01",
+                "nrj12_02",
                 "lcp_05",
                 "france4_01",
                 "franceO_01"
@@ -1464,6 +1487,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_01",
+                "nrj12_02",
                 "lcp_05",
                 "france4_02",
                 "franceO_02"
@@ -1486,6 +1510,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_12",
                 "nt1_02",
+                "nrj12_02",
                 "lcp_05",
                 "france4_02",
                 "franceO_02"
@@ -1508,6 +1533,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_13",
                 "nt1_02",
+                "nrj12_02",
                 "lcp_05",
                 "france4_02",
                 "franceO_02"
@@ -1526,6 +1552,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_13",
                 "nt1_02",
+                "nrj12_02",
                 "lcp_05",
                 "france4_02",
                 "franceO_02"
@@ -1545,6 +1572,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_13",
                 "nt1_02",
+                "nrj12_02",
                 "lcp_05",
                 "france4_02",
                 "franceO_02"
@@ -1562,6 +1590,7 @@ function getDatabase(month) {
                 "w9_01",
                 "tmc_13",
                 "nt1_02",
+                "nrj12_02",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1590,6 +1619,7 @@ function getDatabase(month) {
                 "w9_02",
                 "tmc_13",
                 "nt1_02",
+                "nrj12_02",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1624,6 +1654,7 @@ function getDatabase(month) {
                 "w9_02",
                 "tmc_13",
                 "nt1_02",
+                "nrj12_02",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1641,6 +1672,7 @@ function getDatabase(month) {
                 "w9_02",
                 "tmc_13",
                 "nt1_03",
+                "nrj12_02",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1658,6 +1690,7 @@ function getDatabase(month) {
                 "w9_02",
                 "tmc_13",
                 "nt1_03",
+                "nrj12_02",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1685,6 +1718,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_13",
                 "nt1_03",
+                "nrj12_02",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1712,6 +1746,23 @@ function getDatabase(month) {
         case "2015-06":
         case "2015-07":
         case "2015-08":
+            return [
+                "tf1_06",
+                "france2_03",
+                "france3_03",
+                "canalplus_02",
+                "france5_02",
+                "m6_05",
+                "arte_04",
+                "d8_01",
+                "w9_03",
+                "tmc_13",
+                "nt1_03",
+                "nrj12_02",
+                "lcp_06",
+                "france4_02",
+                "franceO_02"
+            ];
         case "2015-09":
         case "2015-10":
         case "2015-11":
@@ -1736,6 +1787,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_13",
                 "nt1_03",
+                "nrj12_03",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1753,6 +1805,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_13",
                 "nt1_03",
+                "nrj12_03",
                 "lcp_06",
                 "france4_02",
                 "franceO_02"
@@ -1775,6 +1828,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_14",
                 "nt1_03",
+                "nrj12_03",
                 "lcp_07",
                 "france4_02",
                 "franceO_02"
@@ -1801,6 +1855,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_14",
                 "nt1_03",
+                "nrj12_03",
                 "lcp_07",
                 "france4_02",
                 "franceO_02"
@@ -1836,6 +1891,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_07",
                 "france4_03",
                 "franceO_03"
@@ -1853,6 +1909,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_08",
                 "france4_03",
                 "franceO_03"
@@ -1870,6 +1927,7 @@ function getDatabase(month) {
                 "w9_03",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_09",
                 "france4_03",
                 "franceO_03"
@@ -1896,6 +1954,7 @@ function getDatabase(month) {
                 "w9_04",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_09",
                 "france4_03",
                 "franceO_03"
@@ -1917,6 +1976,7 @@ function getDatabase(month) {
                 "w9_04",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_09",
                 "france4_03"
             ];
@@ -1935,6 +1995,7 @@ function getDatabase(month) {
                 "w9_04",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_09",
                 "france4_03",
                 "culturebox_01"
@@ -1955,6 +2016,7 @@ function getDatabase(month) {
                 "w9_04",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_09",
                 "france4_04"
             ];
@@ -2012,6 +2074,7 @@ function getDatabase(month) {
                 "w9_04",
                 "tmc_14",
                 "tfx_01",
+                "nrj12_03",
                 "lcp_09",
                 "france4_05"
             ];
