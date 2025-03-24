@@ -1964,7 +1964,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lequipetv_04",
-                "sister_01"
+                "sister_01",
+                "numero23_01"
             ];
         case "2013-01":
         case "2013-02":
@@ -1972,6 +1973,31 @@ function getDatabase(month) {
         case "2013-04":
         case "2013-05":
         case "2013-06":
+            return [
+                "tf1_05",
+                "france2_03",
+                "france3_03",
+                "canalplus_02",
+                "france5_02",
+                "m6_05",
+                "arte_04",
+                "d8_01",
+                "w9_03",
+                "tmc_13",
+                "nt1_03",
+                "nrj12_02",
+                "lcp_06",
+                "france4_02",
+                "bfmtv_01",
+                "itele_02",
+                "d17_01",
+                "gulli_02",
+                "franceO_02",
+                "hd1_01",
+                "lequipe21_01",
+                "sister_01",
+                "numero23_01"
+            ];
         case "2013-07":
             return [
                 "tf1_05",
@@ -1995,7 +2021,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lequipe21_01",
-                "sister_01"
+                "sister_01",
+                "numero23_02"
             ];
         case "2013-08":
         case "2013-09":
@@ -2021,7 +2048,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lequipe21_01",
-                "sister_01"
+                "sister_01",
+                "numero23_02"
             ];
         case "2013-10":
         case "2013-11":
@@ -2068,7 +2096,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lequipe21_01",
-                "sister_01"
+                "sister_01",
+                "numero23_02"
             ];
         case "2015-09":
         case "2015-10":
@@ -2097,7 +2126,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lequipe21_01",
-                "sister_01"
+                "sister_01",
+                "numero23_02"
             ];
         case "2016-02":
         case "2016-03":
@@ -2123,7 +2153,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lequipe21_01",
-                "sister_01"
+                "sister_01",
+                "numero23_02"
             ];
         case "2016-04":
         case "2016-05":
@@ -2152,7 +2183,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lequipe21_01",
-                "sister_01"
+                "sister_01",
+                "numero23_02"
             ];
         case "2016-09":
             return [
@@ -2177,11 +2209,37 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "numero23_02"
             ];
         case "2016-10":
         case "2016-11":
         case "2016-12":
+            return [
+                "tf1_06",
+                "france2_03",
+                "france3_03",
+                "canalplus_02",
+                "france5_02",
+                "m6_05",
+                "arte_04",
+                "c8_01",
+                "w9_03",
+                "tmc_14",
+                "nt1_03",
+                "nrj12_03",
+                "lcp_07",
+                "france4_02",
+                "bfmtv_02",
+                "itele_03",
+                "cstar_01",
+                "gulli_02",
+                "franceO_02",
+                "hd1_01",
+                "lachainelequipe_01",
+                "sister_02",
+                "numero23_02"
+            ];
         case "2017-01":
             return [
                 "tf1_06",
@@ -2205,7 +2263,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "numero23_03"
             ];
         case "2017-02":
         case "2017-03":
@@ -2231,7 +2290,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "numero23_03"
             ];
         case "2017-04":
         case "2017-05":
@@ -2260,7 +2320,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "numero23_03"
             ];
         case "2017-09":
         case "2017-10":
@@ -2289,7 +2350,8 @@ function getDatabase(month) {
                 "franceO_02",
                 "hd1_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "numero23_03"
             ];
         case "2018-02":
         case "2018-03":
@@ -2332,7 +2394,8 @@ function getDatabase(month) {
                 "franceO_03",
                 "tf1seriesfilms_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "numero23_03"
             ];
         case "2019-09":
             return [
@@ -2357,7 +2420,8 @@ function getDatabase(month) {
                 "franceO_03",
                 "tf1seriesfilms_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2019-10":
             return [
@@ -2382,7 +2446,8 @@ function getDatabase(month) {
                 "franceO_03",
                 "tf1seriesfilms_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2019-11":
         case "2019-12":
@@ -2410,7 +2475,8 @@ function getDatabase(month) {
                 "franceO_03",
                 "tf1seriesfilms_01",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2020-03":
         case "2020-04":
@@ -2440,7 +2506,8 @@ function getDatabase(month) {
                 "franceO_03",
                 "tf1seriesfilms_02",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2020-09":
         case "2020-10":
@@ -2468,7 +2535,8 @@ function getDatabase(month) {
                 "gulli_03",
                 "tf1seriesfilms_02",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2021-02":
         case "2021-03":
@@ -2495,7 +2563,8 @@ function getDatabase(month) {
                 "culturebox_01",
                 "tf1seriesfilms_02",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2021-05":
         case "2021-06":
@@ -2522,7 +2591,8 @@ function getDatabase(month) {
                 "gulli_03",
                 "tf1seriesfilms_02",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2021-09":
         case "2021-10":
@@ -2569,7 +2639,8 @@ function getDatabase(month) {
                 "gulli_03",
                 "tf1seriesfilms_02",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2023-09":
         case "2023-10":
@@ -2610,7 +2681,8 @@ function getDatabase(month) {
                 "gulli_04",
                 "tf1seriesfilms_02",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
         case "2025-03":
             return [
@@ -2632,7 +2704,8 @@ function getDatabase(month) {
                 "gulli_04",
                 "tf1seriesfilms_02",
                 "lachainelequipe_01",
-                "sister_02"
+                "sister_02",
+                "rmcstory_01"
             ];
     }
 }
