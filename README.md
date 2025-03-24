@@ -8,4 +8,4 @@ Le site est accessible via ce lien : [https://infinity54.github.io/FrenchTvHisto
 
 ## Répartition des chaînes
 
-Pour faciliter la création du site, les chaînes sont triées par canaux dans le code de l'application. Les canaux sont déterminés par la TNT. Il est donc normal que certaines chaînes apparaissent en lieu et place de canaux qu'elles n'ont jamais occupées. Le numéro de canal est uniquement utilisé dans le code de l'application, pour trier et ranger plus facilement les fichiers et paramètres : ils ne sont pas affichés sur le site.
+Pour faciliter la création du site, les chaînes sont triées par canaux dans le code de l'application. Les canaux sont déterminés par l'ordre de la TNT tel qu'il était avant la refonte prévue par l'ARCOM à partir du 6 juin 2025. Il est donc normal que certaines chaînes apparaissent en lieu et place de canaux qu'elles n'ont jamais occupées. Le numéro de canal est uniquement utilisé dans le code de l'application, pour trier et ranger plus facilement les fichiers et paramètres : ils ne sont pas affichés sur le site.
