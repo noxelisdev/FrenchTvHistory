@@ -2347,7 +2347,8 @@ function getDatabase(month) {
                 "numero23_02",
                 "rmcdecouverte_01",
                 "cherie25_02",
-                "lci_03"
+                "lci_03",
+                "franceinfo_01"
             ];
         case "2016-10":
         case "2016-11":
@@ -2378,7 +2379,8 @@ function getDatabase(month) {
                 "numero23_02",
                 "rmcdecouverte_01",
                 "cherie25_02",
-                "lci_03"
+                "lci_03",
+                "franceinfo_01"
             ];
         case "2017-01":
             return [
@@ -2407,7 +2409,8 @@ function getDatabase(month) {
                 "numero23_03",
                 "rmcdecouverte_01",
                 "cherie25_02",
-                "lci_03"
+                "lci_03",
+                "franceinfo_01"
             ];
         case "2017-02":
         case "2017-03":
@@ -2437,7 +2440,8 @@ function getDatabase(month) {
                 "numero23_03",
                 "rmcdecouverte_01",
                 "cherie25_02",
-                "lci_03"
+                "lci_03",
+                "franceinfo_01"
             ];
         case "2017-04":
         case "2017-05":
@@ -2470,7 +2474,8 @@ function getDatabase(month) {
                 "numero23_03",
                 "rmcdecouverte_01",
                 "cherie25_02",
-                "lci_03"
+                "lci_03",
+                "franceinfo_01"
             ];
         case "2017-09":
         case "2017-10":
@@ -2502,7 +2507,8 @@ function getDatabase(month) {
                 "numero23_03",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2018-01":
             return [
@@ -2531,7 +2537,8 @@ function getDatabase(month) {
                 "numero23_03",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2018-02":
         case "2018-03":
@@ -2578,7 +2585,8 @@ function getDatabase(month) {
                 "numero23_03",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2019-09":
             return [
@@ -2607,7 +2615,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2019-10":
             return [
@@ -2636,7 +2645,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2019-11":
         case "2019-12":
@@ -2668,7 +2678,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2020-03":
         case "2020-04":
@@ -2702,7 +2713,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2020-09":
         case "2020-10":
@@ -2734,7 +2746,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2021-02":
         case "2021-03":
@@ -2765,7 +2778,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2021-05":
         case "2021-06":
@@ -2796,7 +2810,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2021-09":
         case "2021-10":
@@ -2847,7 +2862,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2023-09":
         case "2023-10":
@@ -2892,7 +2908,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
         case "2025-03":
             return [
@@ -2918,7 +2935,8 @@ function getDatabase(month) {
                 "rmcstory_01",
                 "rmcdecouverte_02",
                 "cherie25_02",
-                "lci_04"
+                "lci_04",
+                "franceinfo_01"
             ];
     }
 }
