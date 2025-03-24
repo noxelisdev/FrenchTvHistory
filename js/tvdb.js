@@ -1415,6 +1415,7 @@ function getDatabase(month) {
                 "france4_01",
                 "bfmtv_01",
                 "itele_01",
+                "gulli_01",
                 "franceO_01"
             ];
         case "2006-01":
@@ -1440,6 +1441,7 @@ function getDatabase(month) {
                 "france4_01",
                 "bfmtv_01",
                 "itele_01",
+                "gulli_01",
                 "franceO_01"
             ];
         case "2006-07":
@@ -1465,6 +1467,7 @@ function getDatabase(month) {
                 "france4_01",
                 "bfmtv_01",
                 "itele_01",
+                "gulli_01",
                 "franceO_01"
             ];
         case "2007-01":
@@ -1490,6 +1493,7 @@ function getDatabase(month) {
                 "france4_01",
                 "bfmtv_01",
                 "itele_01",
+                "gulli_01",
                 "franceO_01"
             ];
         case "2007-07":
@@ -1511,6 +1515,7 @@ function getDatabase(month) {
                 "france4_01",
                 "bfmtv_01",
                 "itele_01",
+                "gulli_01",
                 "franceO_01"
             ];
         case "2007-09":
@@ -1537,6 +1542,7 @@ function getDatabase(month) {
                 "france4_01",
                 "bfmtv_01",
                 "itele_01",
+                "gulli_01",
                 "franceO_01"
             ];
         case "2008-04":
@@ -1561,6 +1567,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_01",
+                "gulli_01",
                 "franceO_02"
             ];
         case "2008-09":
@@ -1586,6 +1593,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_01",
                 "franceO_02"
             ];
         case "2009-03":
@@ -1611,6 +1619,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_01",
                 "franceO_02"
             ];
         case "2009-09":
@@ -1632,6 +1641,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_01",
                 "franceO_02"
             ];
         case "2009-11":
@@ -1654,6 +1664,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_01",
                 "franceO_02"
             ];
         case "2010-02":
@@ -1674,9 +1685,30 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_01",
                 "franceO_02"
             ];
         case "2010-03":
+            return [
+                "tf1_05",
+                "france2_03",
+                "france3_03",
+                "canalplus_02",
+                "france5_02",
+                "m6_05",
+                "arte_03",
+                "direct8_05",
+                "w9_02",
+                "tmc_13",
+                "nt1_02",
+                "nrj12_02",
+                "lcp_06",
+                "france4_02",
+                "bfmtv_01",
+                "itele_02",
+                "gulli_01",
+                "franceO_02"
+            ];
         case "2010-04":
         case "2010-05":
         case "2010-06":
@@ -1705,6 +1737,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2011-03":
@@ -1742,6 +1775,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2012-09":
@@ -1762,6 +1796,7 @@ function getDatabase(month) {
                 "france4_02",
                 "bfmtv_01",
                 "itele_02",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2012-10":
@@ -1783,6 +1818,7 @@ function getDatabase(month) {
                 "bfmtv_01",
                 "itele_02",
                 "d17_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2012-11":
@@ -1812,6 +1848,7 @@ function getDatabase(month) {
                 "bfmtv_01",
                 "itele_02",
                 "d17_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2013-08":
@@ -1834,6 +1871,7 @@ function getDatabase(month) {
                 "bfmtv_01",
                 "itele_03",
                 "d17_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2013-10":
@@ -1877,6 +1915,7 @@ function getDatabase(month) {
                 "bfmtv_01",
                 "itele_03",
                 "d17_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2015-09":
@@ -1902,6 +1941,7 @@ function getDatabase(month) {
                 "bfmtv_01",
                 "itele_03",
                 "d17_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2016-02":
@@ -1924,6 +1964,7 @@ function getDatabase(month) {
                 "bfmtv_01",
                 "itele_03",
                 "d17_02",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2016-04":
@@ -1949,6 +1990,7 @@ function getDatabase(month) {
                 "bfmtv_02",
                 "itele_03",
                 "d17_02",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2016-09":
@@ -1970,6 +2012,7 @@ function getDatabase(month) {
                 "bfmtv_02",
                 "itele_03",
                 "cstar_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2016-10":
@@ -1994,6 +2037,7 @@ function getDatabase(month) {
                 "bfmtv_02",
                 "itele_03",
                 "cstar_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2017-02":
@@ -2016,6 +2060,7 @@ function getDatabase(month) {
                 "bfmtv_02",
                 "cnews_01",
                 "cstar_01",
+                "gulli_02",
                 "franceO_02"
             ];
         case "2017-04":
@@ -2023,6 +2068,27 @@ function getDatabase(month) {
         case "2017-06":
         case "2017-07":
         case "2017-08":
+            return [
+                "tf1_06",
+                "france2_03",
+                "france3_03",
+                "canalplus_02",
+                "france5_02",
+                "m6_05",
+                "arte_05",
+                "c8_01",
+                "w9_03",
+                "tmc_14",
+                "nt1_03",
+                "nrj12_03",
+                "lcp_07",
+                "france4_02",
+                "bfmtv_02",
+                "cnews_01",
+                "cstar_01",
+                "gulli_02",
+                "franceO_02"
+            ];
         case "2017-09":
         case "2017-10":
         case "2017-11":
@@ -2046,6 +2112,7 @@ function getDatabase(month) {
                 "bfmtv_02",
                 "cnews_01",
                 "cstar_01",
+                "gulli_03",
                 "franceO_02"
             ];
         case "2018-02":
@@ -2085,6 +2152,7 @@ function getDatabase(month) {
                 "bfmtv_02",
                 "cnews_01",
                 "cstar_01",
+                "gulli_03",
                 "franceO_03"
             ];
         case "2019-09":
@@ -2106,6 +2174,7 @@ function getDatabase(month) {
                 "bfmtv_03",
                 "cnews_01",
                 "cstar_01",
+                "gulli_03",
                 "franceO_03"
             ];
         case "2019-10":
@@ -2127,6 +2196,7 @@ function getDatabase(month) {
                 "bfmtv_03",
                 "cnews_01",
                 "cstar_01",
+                "gulli_03",
                 "franceO_03"
             ];
         case "2019-11":
@@ -2157,6 +2227,7 @@ function getDatabase(month) {
                 "bfmtv_03",
                 "cnews_01",
                 "cstar_01",
+                "gulli_03",
                 "franceO_03"
             ];
         case "2020-09":
@@ -2181,7 +2252,8 @@ function getDatabase(month) {
                 "france4_03",
                 "bfmtv_03",
                 "cnews_01",
-                "cstar_01"
+                "cstar_01",
+                "gulli_03"
             ];
         case "2021-02":
         case "2021-03":
@@ -2204,6 +2276,7 @@ function getDatabase(month) {
                 "bfmtv_03",
                 "cnews_01",
                 "cstar_01",
+                "gulli_03",
                 "culturebox_01"
             ];
         case "2021-05":
@@ -2227,7 +2300,8 @@ function getDatabase(month) {
                 "france4_04",
                 "bfmtv_03",
                 "cnews_01",
-                "cstar_01"
+                "cstar_01",
+                "gulli_03"
             ];
         case "2021-09":
         case "2021-10":
@@ -2253,6 +2327,26 @@ function getDatabase(month) {
         case "2023-06":
         case "2023-07":
         case "2023-08":
+            return [
+                "tf1_06",
+                "france2_04",
+                "france3_04",
+                "canalplus_02",
+                "france5_03",
+                "m6_06",
+                "arte_05",
+                "c8_01",
+                "w9_04",
+                "tmc_14",
+                "tfx_01",
+                "nrj12_03",
+                "lcp_09",
+                "france4_05",
+                "bfmtv_03",
+                "cnews_01",
+                "cstar_01",
+                "gulli_03"
+            ];
         case "2023-09":
         case "2023-10":
         case "2023-11":
@@ -2288,7 +2382,8 @@ function getDatabase(month) {
                 "france4_05",
                 "bfmtv_03",
                 "cnews_01",
-                "cstar_01"
+                "cstar_01",
+                "gulli_04"
             ];
         case "2025-03":
             return [
@@ -2306,7 +2401,8 @@ function getDatabase(month) {
                 "france4_05",
                 "bfmtv_03",
                 "cnews_01",
-                "cstar_01"
+                "cstar_01",
+                "gulli_04"
             ];
     }
 }
