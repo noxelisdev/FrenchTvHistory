@@ -2,12 +2,10 @@
 
 Site Web permettant de visualiser l'évolution des chaînes télévisées en France depuis avril 1935, date de création de la première chaîne de télévision publique.
 
-Seules les chaînes publiques et, plus récemment, les chaînes de la TNT (gratuites et payantes) seront affichées sur le site. Les chaînes accessibles en ligne ou via un fournisseur d'accès à Internet ne seront pas gérées.
+## Contenu du site
 
-Le site est accessible via ce lien : [https://infinity54.github.io/FrenchTvHistory/](https://infinity54.github.io/FrenchTvHistory/).
+Initialement, et jusqu'au [commit ajoutant les chaînes pré-D17](https://github.com/InFinity54/FrenchTvHistory/commit/ec798766836461cc6f73b398e96a1ab877d973ee), seule la Télévision Numérique Terrestre (TNT) devait être gérée par le site. Finalement, plutôt d'utiliser le canal de diffusion des chaînes, un tri par ordre alphabétique a été mis en place, ce qui a permis de pouvoir gérer beaucoup plus de chaînes, y compris celles hors TNT.
 
-## Répartition des chaînes
+Cette décision a été prise pour prendre en compte les changements opérés sur la TNT, dont une nouvelle répartition des chaînes à compter du 6 juin 2025, sans créer d'incohérence dans l'affichage.
 
-Pour faciliter la création du site, les chaînes sont triées par canaux dans le code de l'application. Les canaux sont déterminés par l'ordre de la TNT tel qu'il était avant la refonte prévue par l'ARCOM à partir du 6 juin 2025. Il est donc normal que certaines chaînes apparaissent en lieu et place de canaux qu'elles n'ont jamais occupées. Le numéro de canal est uniquement utilisé dans le code de l'application, pour trier et ranger plus facilement les fichiers et paramètres : ils ne sont pas affichés sur le site.
-
-De plus, le retrait des chaînes du groupe Canal+ de la TNT à compter du 6 juin 2025 n'entraînera pas leur retrait de l'historique, puisqu'elles existeront toujours au delà de cette date, et continueront d'être mises à jour dans l'historique.
+Il est possible d'accéder au site, en ligne, via le lien suivant : [https://infinity54.github.io/FrenchTvHistory/](https://infinity54.github.io/FrenchTvHistory/).
