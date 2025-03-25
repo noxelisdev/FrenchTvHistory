@@ -3453,6 +3453,8 @@ function getDatabase(month) {
                 "w9_04"
             ];
         case "2025-03":
+        case "2025-04":
+        case "2025-05":
             return [
                 "6ter_02",
                 "arte_05",
@@ -3477,6 +3479,38 @@ function getDatabase(month) {
                 "planeteplus_01",
                 "rmcdecouverte_02",
                 "rmcstory_01",
+                "tf1_06",
+                "tf1seriesfilms_02",
+                "tfx_01",
+                "tmc_14",
+                "w9_04"
+            ];
+        case "2025-06":
+            return [
+                "6ter_02",
+                "arte_05",
+                "bfmtv_03",
+                "canalplus_02",
+                "canalpluscinema_06",
+                "canalplussport_06",
+                "cherie25_02",
+                "cnews_01",
+                "cstar_01",
+                "france2_04",
+                "france3_04",
+                "france4_05",
+                "france5_03",
+                "gulli_04",
+                "lachainelequipe_01",
+                "lci_04",
+                "lcp_09",
+                "m6_06",
+                "franceinfo_01",
+                "parispremiere_03",
+                "planeteplus_01",
+                "rmcdecouverte_02",
+                "rmcstory_01",
+                "t18_01",
                 "tf1_06",
                 "tf1seriesfilms_02",
                 "tfx_01",
