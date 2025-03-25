@@ -8,4 +8,8 @@ Initialement, et jusqu'au [commit ajoutant les chaînes pré-D17](https://github
 
 Cette décision a été prise pour prendre en compte les changements opérés sur la TNT, dont une nouvelle répartition des chaînes à compter du 6 juin 2025, sans créer d'incohérence dans l'affichage.
 
+Le site se base sur la date courante pour déterminer la plage de dates sélectionnable : il est possible de visualiser l'intégralité de l'historique des chaînes enregistrées, d'avril 1935 (première chaîne TV publique française) à aujourd'hui.
+
+Le site gère actuellement un historique allant d'avril 1935 à juin 2025 inclus. Cela signifie que, à partir de juillet 2025, bien que les mois seront sélectionnables, ils ne contiendront aucune chaîne tant que la base de données n'aura pas été mise à jour. De plus, pour accéder à des modifications futures, il sera nécessaire de modifier la date de votre périphérique.
+
 Il est possible d'accéder au site, en ligne, via le lien suivant : [https://infinity54.github.io/FrenchTvHistory/](https://infinity54.github.io/FrenchTvHistory/).
