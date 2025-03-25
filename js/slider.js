@@ -25,7 +25,6 @@ function updateList(year, month) {
     });
 
     Array.prototype.forEach.call(getDatabase(selectedMonth), function(tvId) {
-        console.log(tvId);
         document.getElementById(tvId).style.display = "block";
     });
 }
