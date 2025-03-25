@@ -1114,7 +1114,8 @@ function getDatabase(month) {
                 "tmc_10",
                 "canalassemblee_01",
                 "lci_01",
-                "parispremiere_02"
+                "parispremiere_02",
+                "canalplusjaune_01"
             ];
         case "1996-06":
         case "1996-07":
@@ -1149,7 +1150,8 @@ function getDatabase(month) {
                 "canalassemblee_01",
                 "festival_01",
                 "lci_01",
-                "parispremiere_02"
+                "parispremiere_02",
+                "canalplusjaune_01"
             ];
         case "1998-03":
         case "1998-04":
@@ -1171,7 +1173,8 @@ function getDatabase(month) {
                 "rfosat_01",
                 "lequipetv_01",
                 "lci_01",
-                "parispremiere_02"
+                "parispremiere_02",
+                "canalplusjaune_01"
             ];
         case "1998-09":
         case "1998-10":
@@ -1189,7 +1192,8 @@ function getDatabase(month) {
                 "rfosat_01",
                 "lequipetv_01",
                 "lci_01",
-                "parispremiere_02"
+                "parispremiere_02",
+                "canalplusjaune_01"
             ];
         case "1998-11":
         case "1998-12":
@@ -1208,7 +1212,8 @@ function getDatabase(month) {
                 "rfosat_01",
                 "lequipetv_01",
                 "lci_01",
-                "parispremiere_02"
+                "parispremiere_02",
+                "canalplusjaune_01"
             ];
         case "1999-01":
             return [
@@ -1226,7 +1231,8 @@ function getDatabase(month) {
                 "rfosat_01",
                 "lequipetv_02",
                 "lci_01",
-                "parispremiere_02"
+                "parispremiere_02",
+                "canalplusjaune_01"
             ];
         case "1999-02":
         case "1999-03":
@@ -1249,7 +1255,8 @@ function getDatabase(month) {
                 "rfosat_02",
                 "lequipetv_02",
                 "lci_01",
-                "parispremiere_02"
+                "parispremiere_02",
+                "canalplusjaune_01"
             ];
         case "1999-08":
             return [
@@ -1268,7 +1275,8 @@ function getDatabase(month) {
                 "lequipetv_02",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "1999-09":
         case "1999-10":
@@ -1288,7 +1296,8 @@ function getDatabase(month) {
                 "lequipetv_02",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "1999-11":
         case "1999-12":
@@ -1308,7 +1317,8 @@ function getDatabase(month) {
                 "lequipetv_02",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2000-01":
         case "2000-02":
@@ -1338,7 +1348,8 @@ function getDatabase(month) {
                 "lequipetv_02",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2001-01":
         case "2001-02":
@@ -1366,7 +1377,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2001-11":
         case "2001-12":
@@ -1386,7 +1398,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2002-01":
         case "2002-02":
@@ -1406,7 +1419,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2002-03":
         case "2002-04":
@@ -1430,7 +1444,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2002-09":
         case "2002-10":
@@ -1455,7 +1470,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2003-04":
         case "2003-05":
@@ -1480,7 +1496,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplusvert_01"
+                "canalplusvert_01",
+                "canalplusjaune_01"
             ];
         case "2003-11":
         case "2003-12":
@@ -1500,7 +1517,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_01"
+                "canalplussport_01",
+                "canalpluscinema_01"
             ];
         case "2004-01":
         case "2004-02":
@@ -1530,7 +1548,8 @@ function getDatabase(month) {
                 "lequipetv_03",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_01"
+                "canalplussport_01",
+                "canalpluscinema_01"
             ];
         case "2005-01":
         case "2005-02":
@@ -1550,7 +1569,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_01"
+                "canalplussport_01",
+                "canalpluscinema_01"
             ];
         case "2005-03":
             return [
@@ -1573,7 +1593,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_02"
+                "canalplussport_02",
+                "canalpluscinema_02"
             ];
         case "2005-04":
         case "2005-05":
@@ -1602,7 +1623,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_02"
+                "canalplussport_02",
+                "canalpluscinema_02"
             ];
         case "2005-11":
         case "2005-12":
@@ -1628,7 +1650,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_02"
+                "canalplussport_02",
+                "canalpluscinema_02"
             ];
         case "2006-01":
         case "2006-02":
@@ -1658,7 +1681,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_02"
+                "canalplussport_02",
+                "canalpluscinema_02"
             ];
         case "2006-07":
         case "2006-08":
@@ -1688,7 +1712,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_03"
+                "canalplussport_03",
+                "canalpluscinema_03"
             ];
         case "2007-01":
         case "2007-02":
@@ -1718,7 +1743,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_03"
+                "canalplussport_03",
+                "canalpluscinema_03"
             ];
         case "2007-07":
         case "2007-08":
@@ -1744,7 +1770,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_03"
+                "canalplussport_03",
+                "canalpluscinema_03"
             ];
         case "2007-09":
         case "2007-10":
@@ -1775,7 +1802,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_03"
+                "canalplussport_03",
+                "canalpluscinema_03"
             ];
         case "2008-04":
         case "2008-05":
@@ -1804,7 +1832,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_03"
+                "canalplussport_03",
+                "canalpluscinema_03"
             ];
         case "2008-09":
         case "2008-10":
@@ -1834,7 +1863,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_03"
+                "canalplussport_03",
+                "canalpluscinema_03"
             ];
         case "2009-03":
         case "2009-04":
@@ -1864,7 +1894,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_03"
+                "canalplussport_03",
+                "canalpluscinema_03"
             ];
         case "2009-09":
         case "2009-10":
@@ -1890,7 +1921,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2009-11":
         case "2009-12":
@@ -1917,7 +1949,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2010-02":
             return [
@@ -1942,7 +1975,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2010-03":
             return [
@@ -1967,7 +2001,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2010-04":
         case "2010-05":
@@ -2002,7 +2037,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2011-03":
         case "2011-04":
@@ -2033,7 +2069,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_02",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2011-10":
         case "2011-11":
@@ -2060,7 +2097,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_01",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2012-01":
         case "2012-02":
@@ -2092,7 +2130,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2012-09":
             return [
@@ -2117,7 +2156,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2012-10":
             return [
@@ -2143,7 +2183,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2012-11":
             return [
@@ -2169,7 +2210,8 @@ function getDatabase(month) {
                 "lequipetv_04",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2012-12":
             return [
@@ -2200,7 +2242,8 @@ function getDatabase(month) {
                 "cherie25_01",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2013-01":
         case "2013-02":
@@ -2236,7 +2279,8 @@ function getDatabase(month) {
                 "cherie25_01",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2013-07":
             return [
@@ -2267,7 +2311,8 @@ function getDatabase(month) {
                 "cherie25_01",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2013-08":
         case "2013-09":
@@ -2299,7 +2344,8 @@ function getDatabase(month) {
                 "cherie25_01",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_04"
+                "canalplussport_04",
+                "canalpluscinema_04"
             ];
         case "2013-10":
         case "2013-11":
@@ -2352,7 +2398,8 @@ function getDatabase(month) {
                 "cherie25_01",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2015-09":
         case "2015-10":
@@ -2384,7 +2431,8 @@ function getDatabase(month) {
                 "cherie25_01",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2015-11":
         case "2015-12":
@@ -2416,7 +2464,8 @@ function getDatabase(month) {
                 "cherie25_02",
                 "lci_02",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2016-01":
             return [
@@ -2447,7 +2496,8 @@ function getDatabase(month) {
                 "cherie25_02",
                 "lci_03",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2016-02":
         case "2016-03":
@@ -2479,7 +2529,8 @@ function getDatabase(month) {
                 "cherie25_02",
                 "lci_03",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2016-04":
         case "2016-05":
@@ -2514,7 +2565,8 @@ function getDatabase(month) {
                 "cherie25_02",
                 "lci_03",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2016-09":
             return [
@@ -2546,7 +2598,8 @@ function getDatabase(month) {
                 "lci_03",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2016-10":
         case "2016-11":
@@ -2580,7 +2633,8 @@ function getDatabase(month) {
                 "lci_03",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2017-01":
             return [
@@ -2612,7 +2666,8 @@ function getDatabase(month) {
                 "lci_03",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2017-02":
         case "2017-03":
@@ -2645,7 +2700,8 @@ function getDatabase(month) {
                 "lci_03",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2017-04":
         case "2017-05":
@@ -2681,7 +2737,8 @@ function getDatabase(month) {
                 "lci_03",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2017-09":
         case "2017-10":
@@ -2716,7 +2773,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2018-01":
             return [
@@ -2748,7 +2806,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2018-02":
         case "2018-03":
@@ -2798,7 +2857,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2019-09":
             return [
@@ -2830,7 +2890,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2019-10":
             return [
@@ -2862,7 +2923,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2019-11":
         case "2019-12":
@@ -2897,7 +2959,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2020-03":
         case "2020-04":
@@ -2934,7 +2997,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2020-09":
         case "2020-10":
@@ -2969,7 +3033,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2021-02":
         case "2021-03":
@@ -3003,7 +3068,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2021-05":
         case "2021-06":
@@ -3037,7 +3103,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2021-09":
         case "2021-10":
@@ -3091,7 +3158,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_05"
+                "canalplussport_05",
+                "canalpluscinema_05"
             ];
         case "2023-09":
         case "2023-10":
@@ -3139,7 +3207,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_06"
+                "canalplussport_06",
+                "canalpluscinema_06"
             ];
         case "2025-03":
             return [
@@ -3168,7 +3237,8 @@ function getDatabase(month) {
                 "lci_04",
                 "franceinfo_01",
                 "parispremiere_03",
-                "canalplussport_06"
+                "canalplussport_06",
+                "canalpluscinema_06"
             ];
     }
 }
