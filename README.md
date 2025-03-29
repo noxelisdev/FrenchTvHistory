@@ -12,7 +12,7 @@ Cette décision a été prise pour pouvoir prendre en compte les changements op�
 
 Le site se base sur la date courante pour déterminer la plage de dates sélectionnable : il est possible de visualiser l'intégralité de l'historique des chaînes enregistrées, d'avril 1935 (première chaîne TV publique française) à aujourd'hui.
 
-Le site gère actuellement un historique allant d'avril 1935 à juin 2025 inclus. Cela signifie que, à partir de juillet 2025, bien que les mois seront sélectionnables, ils ne contiendront aucune chaîne tant que la base de données n'aura pas été mise à jour. De plus, pour accéder à des modifications futures, il sera nécessaire de modifier la date de votre périphérique.
+Le site gère actuellement un historique allant d'avril 1935 à septembre 2025 inclus. Cela signifie que, à partir de octobre 2025, bien que les mois seront sélectionnables, ils ne contiendront aucune chaîne tant que la base de données n'aura pas été mise à jour. De plus, pour accéder à des modifications futures, il sera nécessaire de modifier la date de votre périphérique.
 
 ## Accès au site
 
