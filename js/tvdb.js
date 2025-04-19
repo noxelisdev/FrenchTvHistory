@@ -3739,6 +3739,9 @@ function getDatabase(month) {
                 "w9_04"
             ];
         case "2025-09":
+        case "2025-10":
+        case "2025-11":
+        case "2025-12":
             return [
                 "6ter_02",
                 "ab1_09",
