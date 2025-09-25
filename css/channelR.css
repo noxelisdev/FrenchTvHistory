@@ -22,8 +22,16 @@
     background-image: url('../img/tv/r/rmcdecouverte/rmcdecouverte_02.svg');
 }
 
+#rmcdecouverte_03 {
+    background-image: url('../img/tv/r/rmcdecouverte/rmcdecouverte_03.png');
+}
+
 #rmclife_01 {
     background-image: url('../img/tv/r/rmclife/rmclife_01.png');
+}
+
+#rmcstory_01 {
+    background-image: url('../img/tv/r/rmcstory/rmcstory_01.svg');
 }
 
 #rmcstory_02 {
