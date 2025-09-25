@@ -16,4 +16,4 @@ Le site gère actuellement un historique allant d'avril 1935 à septembre 2025 i
 
 ## Accès au site
 
-En clonant le dépôt du site, il est possible d'y accéder localement en ouvrant directement le fichier `index.html` dans un navigateur Web. Il est également possible d'y accéder directement en ligne, à l'adresse [https://infinity54.github.io/FrenchTvHistory/](https://infinity54.github.io/FrenchTvHistory/).
+En clonant le dépôt du site, il est possible d'y accéder localement en ouvrant directement le fichier `index.html` dans un navigateur Web. Il est également possible d'y accéder directement en ligne, à l'adresse [https://noxelisdev.github.io/FrenchTvHistory/](https://infinity54.github.io/FrenchTvHistory/).
