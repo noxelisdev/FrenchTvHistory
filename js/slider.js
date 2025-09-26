@@ -1,44 +1,91 @@
-const startYear = 1935;
-const startMonth = 3; // Avril (index 3 car Janvier = 0)
-const endYear = new Date().getFullYear();
-const endMonth = new Date().getMonth();
+import * as db from "./tvdb.json" with { type: 'json' };
+const SITE_START_YM = "1935-04";
+let SITE_END_YM;
 
-const totalMonths = (endYear - startYear) * 12 + (endMonth - startMonth) + 1;
-
-const monthSlider = document.getElementById("month");
-const selectedMonthText = document.getElementById("currentMonth");
-
-function getMonthYear(year, month) {
-    const monthNames = ["Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre"];
-    return `${monthNames[month]} ${year}`;
+function parseYM(ym) {
+    const [y, m] = ym.split("-").map(Number);
+    return { y, m };
 }
 
-function updateLabel(year, month) {
-    selectedMonthText.textContent = getMonthYear(year, month);
+function ymToIndexFrom(baseYM, ym) {
+    const b = parseYM(baseYM);
+    const t = parseYM(ym);
+    return (t.y - b.y) * 12 + (t.m - b.m);
 }
 
-function updateList(year, month) {
-    const selectedMonth = String(year) + "-" + String(month).padStart(2, "0");
+function indexToYMFrom(baseYM, idx) {
+    const b = parseYM(baseYM);
+    const y = b.y + Math.floor((b.m - 1 + idx) / 12);
+    const m = ((b.m - 1 + idx) % 12) + 1;
+    return `${y}-${String(m).padStart(2, "0")}`;
+}
 
-    Array.prototype.forEach.call(document.getElementsByClassName("tv"), function(tv) {
-        tv.style.display = "none";
+function coversYM_inclusive(fromYM, toYM, ym, siteEndYM = SITE_END_YM) {
+    const to = toYM ?? siteEndYM;
+    const i = ymToIndexFrom(SITE_START_YM, ym);
+    const a = ymToIndexFrom(SITE_START_YM, fromYM);
+    const b = ymToIndexFrom(SITE_START_YM, to);
+    return a <= i && i <= b;
+}
+
+function computeSiteBounds(logos, fallbackEndYM = SITE_END_YM) {
+    let minYM = SITE_START_YM;
+    let maxYM = fallbackEndYM;
+
+    const allYMs = [];
+    for (const meta of Object.values(db.default)) {
+        const ranges = meta.ranges ?? [{ from: meta.from, to: meta.to ?? null }];
+
+        for (const r of ranges) {
+            allYMs.push(r.from);
+            allYMs.push(r.to ?? fallbackEndYM);
+        }
+    }
+
+    if (allYMs.length) {
+        minYM = allYMs.reduce((acc, ym) => ymToIndexFrom(SITE_START_YM, ym) < ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, allYMs[0]);
+        maxYM = allYMs.reduce((acc, ym) => ymToIndexFrom(SITE_START_YM, ym) > ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, allYMs[0]);
+    }
+
+    const minIndex = ymToIndexFrom(SITE_START_YM, minYM);
+    const maxIndex = ymToIndexFrom(SITE_START_YM, maxYM);
+    return { minYM, maxYM, minIndex, maxIndex };
+}
+
+function getActiveIdsForIndex(index, siteEndYM = SITE_END_YM) {
+    const ym = indexToYMFrom(SITE_START_YM, index);
+    const active = [];
+
+    for (const [id, meta] of Object.entries(db.default)) {
+        const ranges = meta.ranges ?? [{ from: meta.from, to: meta.to ?? null }];
+        if (ranges.some(r => coversYM_inclusive(r.from, r.to ?? null, ym, siteEndYM))) {
+            active.push(id);
+        }
+    }
+
+    return { ym, ids: active };
+}
+
+function capitalizeFirstLetter(val) {
+    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+}
+
+function renderForIndex(i) {
+    const { ym, ids } = getActiveIdsForIndex(Number(i));
+    document.getElementById("currentMonth").textContent = `${capitalizeFirstLetter(new Date(ym).toLocaleString('default', { month: 'long' }))} ${ym.substring(0, 4)}`;
+
+    Array.from(document.getElementsByClassName("show")).forEach((element) => {
+        element.classList.remove("show");
     });
 
-    Array.prototype.forEach.call(getDatabase(selectedMonth), function(tvId) {
-        document.getElementById(tvId).style.display = "block";
-    });
+    ids.forEach((id) => {
+        document.getElementById(id).classList.add("show");
+    })
 }
 
-function updateDisplay() {
-    const currentValue = parseInt(monthSlider.value);
-    let year = startYear + Math.floor((startMonth + currentValue) / 12);
-    let month = (startMonth + currentValue) % 12;
-
-    updateLabel(year, month);
-    updateList(year, month + 1);
-}
-
-monthSlider.max = totalMonths - 1;
-monthSlider.addEventListener("input", updateDisplay);
-
-updateDisplay();
+const { maxYM, maxIndex } = computeSiteBounds(db.default);
+SITE_END_YM = maxYM;
+document.getElementById("month").min = 0;
+document.getElementById("month").max = maxIndex;
+document.getElementById("month").addEventListener("input", (e) => renderForIndex(e.target.value));
+renderForIndex(0);

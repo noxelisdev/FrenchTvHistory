@@ -6,3 +6,11 @@
 body {
     background-color: #161616;
 }
+
+.tv {
+    display: none;
+}
+
+.tv.show {
+    display: block;
+}
