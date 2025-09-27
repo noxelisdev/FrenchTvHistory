@@ -38,6 +38,18 @@
     background-image: url('../../img/channels/a/abanimaux/abanimaux_01.svg');
 }
 
+#abmoteurs_01 {
+    background-image: url('../../img/channels/a/abmoteurs/abmoteurs_01.jpg');
+}
+
+#abmoteurs_02 {
+    background-image: url('../../img/channels/a/abmoteurs/abmoteurs_02.svg');
+}
+
+#abmoteurs_03 {
+    background-image: url('../../img/channels/a/abmoteurs/abmoteurs_03.svg');
+}
+
 #action_01 {
     background-image: url('../../img/channels/a/action/action_01.gif');
 }
@@ -112,4 +124,12 @@
 
 #arte_05 {
     background-image: url('../../img/channels/a/arte/arte_05.svg');
+}
+
+#automobile_01 {
+    background-image: url('../../img/channels/a/automobile/automobile_01.svg');
+}
+
+#automotolachaine_01 {
+    background-image: url('../../img/channels/a/automotolachaine/automotolachaine_01.png');
 }

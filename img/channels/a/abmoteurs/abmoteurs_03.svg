@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 620 70"
+   version="1.1"
+   id="svg41"
+   sodipodi:docname="abmoteurs.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata45">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview43"
+     showgrid="false"
+     inkscape:zoom="1.8762631"
+     inkscape:cx="317.40061"
+     inkscape:cy="17.464627"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g39" />
+  <defs
+     id="defs11">
+    <linearGradient
+       id="a"
+       x1="37.31"
+       y1="195.12"
+       x2="37.31"
+       y2="161.94"
+       gradientTransform="translate(347.31 195.14) rotate(180)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         id="stop2" />
+      <stop
+         offset="0.24"
+         stop-color="#222"
+         id="stop4" />
+      <stop
+         offset="0.77"
+         stop-color="#777"
+         id="stop6" />
+      <stop
+         offset="1"
+         stop-color="#9e9f9f"
+         id="stop8" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title13">ab_moteurs</title>
+  <g
+     style="isolation:isolate"
+     id="g39">
+    <rect
+       x="128.85"
+       width="491.15"
+       height="70"
+       style="fill:#d3072e"
+       id="rect15" />
+    <rect
+       width="133.11"
+       height="70"
+       style="fill:#010101"
+       id="rect17" />
+    <path
+       d="M53.77,15.44h-32q-9.82,0-9.82,9.83V56.18H24.56V40.68H51V56.18H63.58V25.28Q63.58,15.44,53.77,15.44ZM24.56,30.89V26.68a1.24,1.24,0,0,1,1.4-1.4h23.6a1.24,1.24,0,0,1,1.4,1.4v4.21Zm82.34,25.28H72.65V15.46h34.64c4.2,0,7.6,1.09,10.12,3.25a11.26,11.26,0,0,1,3.94,8.94,10.57,10.57,0,0,1-3,7.22,11.42,11.42,0,0,1,4.49,9.52C122.85,49.76,120.08,56.17,106.89,56.17Zm-23.67-10h24.92c3.27,0,3.73-1.75,3.73-2.59,0-1.17-.66-2.94-3.73-2.94H83.22Zm0-15.27h24.11c1.09,0,3.35-.83,3.35-2.78s-2.22-2.86-3.35-2.86H83.22Z"
+       style="fill:#fff"
+       id="path19" />
+    <g
+       style="mix-blend-mode:screen"
+       id="g35">
+      <path
+         d="M172.73,24.12H154.52V55H141.91V14.29h64.44q9.81,0,9.81,9.83V55H203.56V25.52a1.24,1.24,0,0,0-1.4-1.4H185.34V55H172.73Z"
+         style="fill:#fff"
+         id="path21" />
+      <path
+         d="M272,14.29q9.8,0,9.81,9.83v21Q281.81,55,272,55H232.77Q223,55,223,45.17v-21q0-9.83,9.81-9.83ZM267.8,45.17a1.24,1.24,0,0,0,1.4-1.4V25.52a1.24,1.24,0,0,0-1.4-1.4H237a1.24,1.24,0,0,0-1.4,1.4V43.76a1.24,1.24,0,0,0,1.4,1.4Z"
+         style="fill:#fff"
+         id="path23" />
+      <path
+         d="M347.45,14.29v9.83H324.34V55H311.73V24.12H288.61V14.29Z"
+         style="fill:#fff"
+         id="path25" />
+      <path
+         d="M413.09,55h-49q-9.8,0-9.81-9.82v-21q0-9.83,9.81-9.83h39.23q9.81,0,9.81,9.83v5.61q0,9.83-9.81,9.82H366.86v4.21a1.24,1.24,0,0,0,1.4,1.4h44.83Zm-14-25.26a1.23,1.23,0,0,0,1.39-1.4V25.52a1.24,1.24,0,0,0-1.39-1.4H368.26a1.24,1.24,0,0,0-1.4,1.4v4.21Z"
+         style="fill:#fff"
+         id="path27" />
+      <path
+         d="M466.13,14.29h12.61V55h-49q-9.8,0-9.8-9.82V14.29h12.6V43.76a1.24,1.24,0,0,0,1.4,1.4h32.22Z"
+         style="fill:#fff"
+         id="path29" />
+      <path
+         d="M530.37,39.55H498.15V55H485.54V14.29h49q9.8,0,9.8,9.83v5.61a6.72,6.72,0,0,1-2.8,5.61q2.8,1.72,2.8,4.21V55H531.77V41A1.24,1.24,0,0,0,530.37,39.55Zm0-9.82a1.24,1.24,0,0,0,1.4-1.4V25.52a1.24,1.24,0,0,0-1.4-1.4H498.15v5.61Z"
+         style="fill:#fff"
+         id="path31" />
+      <path
+         d="M600.22,29.73q9.81,0,9.8,9.82v5.61q0,9.82-9.8,9.82h-49V45.17H596a1.24,1.24,0,0,0,1.4-1.4V41a1.24,1.24,0,0,0-1.4-1.4H561q-9.81,0-9.81-9.82V24.12q0-9.83,9.81-9.83h49v9.83H565.19a1.24,1.24,0,0,0-1.4,1.4v2.81a1.24,1.24,0,0,0,1.4,1.4Z"
+         style="fill:#fff"
+         id="path33" />
+    </g>
+    <path
+       d="M0,0H620V20C393.5,44.19,240.21,28.74,0,23.69Z"
+       style="opacity:0.75;mix-blend-mode:screen;fill:url(#a)"
+       id="path37" />
+  </g>
+</svg>
