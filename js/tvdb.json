@@ -363,6 +363,186 @@
 			}
 		]
 	},
+	"beinsports01_01": {
+		"name": "beIN Sports 01",
+		"ranges": [
+			{
+				"from": "2012-06",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsports01_02": {
+		"name": "beIN Sports 01",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsports02_01": {
+		"name": "beIN Sports 02",
+		"ranges": [
+			{
+				"from": "2012-07",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsports02_02": {
+		"name": "beIN Sports 02",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsports03_01": {
+		"name": "beIN Sports 03",
+		"ranges": [
+			{
+				"from": "2014-09",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsports03_02": {
+		"name": "beIN Sports 03",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsportsmax04_01": {
+		"name": "beIN Sports MAX 04",
+		"ranges": [
+			{
+				"from": "2012-08",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsportsmax04_02": {
+		"name": "beIN Sports MAX 04",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsportsmax05_01": {
+		"name": "beIN Sports MAX 05",
+		"ranges": [
+			{
+				"from": "2012-08",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsportsmax05_02": {
+		"name": "beIN Sports MAX 05",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsportsmax06_01": {
+		"name": "beIN Sports MAX 06",
+		"ranges": [
+			{
+				"from": "2012-08",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsportsmax06_02": {
+		"name": "beIN Sports MAX 06",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsportsmax07_01": {
+		"name": "beIN Sports MAX 07",
+		"ranges": [
+			{
+				"from": "2012-08",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsportsmax07_02": {
+		"name": "beIN Sports MAX 07",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsportsmax08_01": {
+		"name": "beIN Sports MAX 08",
+		"ranges": [
+			{
+				"from": "2012-08",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsportsmax08_02": {
+		"name": "beIN Sports MAX 08",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsportsmax09_01": {
+		"name": "beIN Sports MAX 09",
+		"ranges": [
+			{
+				"from": "2012-08",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsportsmax09_02": {
+		"name": "beIN Sports MAX 09",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
+	"beinsportsmax10_01": {
+		"name": "beIN Sports MAX 10",
+		"ranges": [
+			{
+				"from": "2012-08",
+				"to": "2016-12"
+			}
+		]
+	},
+	"beinsportsmax10_02": {
+		"name": "beIN Sports MAX 10",
+		"ranges": [
+			{
+				"from": "2017-01",
+				"to": null
+			}
+		]
+	},
 	"bfmtv_01": {
 		"name": "BFM TV",
 		"ranges": [
