@@ -561,6 +561,15 @@
 			}
 		]
 	},
+	"bfm2_01": {
+		"name": "BFM2",
+		"ranges": [
+			{
+				"from": "2024-09",
+				"to": null
+			}
+		]
+	},
 	"bfmbusiness_01": {
 		"name": "BFM Business",
 		"ranges": [
