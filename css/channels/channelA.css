@@ -34,6 +34,10 @@
     background-image: url('../../img/channels/a/ab1/ab1_09.svg');
 }
 
+#abanimaux_01 {
+    background-image: url('../../img/channels/a/abanimaux/abanimaux_01.svg');
+}
+
 #action_01 {
     background-image: url('../../img/channels/a/action/action_01.gif');
 }
@@ -48,6 +52,22 @@
 
 #action_04 {
     background-image: url('../../img/channels/a/action/action_04.svg');
+}
+
+#animaux_01 {
+    background-image: url('../../img/channels/a/animaux/animaux_01.gif');
+}
+
+#animaux_02 {
+    background-image: url('../../img/channels/a/animaux/animaux_02.svg');
+}
+
+#animaux_03 {
+    background-image: url('../../img/channels/a/animaux/animaux_03.png');
+}
+
+#animaux_04 {
+    background-image: url('../../img/channels/a/animaux/animaux_04.svg');
 }
 
 #antenne2_01 {

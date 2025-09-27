@@ -129,6 +129,15 @@
 			}
 		]
 	},
+	"abanimaux_01": {
+		"name": "AB Animaux",
+		"ranges": [
+			{
+				"from": "1996-04",
+				"to": "1998-12"
+			}
+		]
+	},
 	"action_01": {
 		"name": "Action",
 		"ranges": [
@@ -161,6 +170,42 @@
 		"ranges": [
 			{
 				"from": "2014-09",
+				"to": null
+			}
+		]
+	},
+	"animaux_01": {
+		"name": "Animaux",
+		"ranges": [
+			{
+				"from": "1999-01",
+				"to": "2002-12"
+			}
+		]
+	},
+	"animaux_02": {
+		"name": "Animaux",
+		"ranges": [
+			{
+				"from": "2003-01",
+				"to": "2011-08"
+			}
+		]
+	},
+	"animaux_03": {
+		"name": "Animaux",
+		"ranges": [
+			{
+				"from": "2011-09",
+				"to": "2017-04"
+			}
+		]
+	},
+	"animaux_04": {
+		"name": "Animaux",
+		"ranges": [
+			{
+				"from": "2017-05",
 				"to": null
 			}
 		]
