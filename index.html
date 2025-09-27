@@ -5,255 +5,47 @@
         <meta charset="UTF-8" />
         <link rel="favicon icon" type="image/png" href="favicon.png" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" />
-        <link rel="stylesheet" href="css/global.css" />
-        <link rel="stylesheet" href="css/content.css" />
-        <link rel="stylesheet" href="css/all_channels.css" />
-        <link rel="stylesheet" href="css/controls.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/channels/all.css" />
     </head>
     <body>
-        <div id="content">
-            <!-- 6 -->
-            <div id="6ter_01" class="tv" title="6ter"></div>
-            <div id="6ter_02" class="tv" title="6ter"></div>
+        <div class="container">
+            <header>
+                <div class="brand">
+                    <div class="logo-badge">📺</div>
 
-            <!-- A -->
-            <div id="ab1_01" class="tv" title="AB1"></div>
-            <div id="ab1_02" class="tv" title="AB1"></div>
-            <div id="ab1_03" class="tv" title="AB1"></div>
-            <div id="ab1_04" class="tv" title="AB1"></div>
-            <div id="ab1_05" class="tv" title="AB1"></div>
-            <div id="ab1_06" class="tv" title="AB1"></div>
-            <div id="ab1_07" class="tv" title="AB1"></div>
-            <div id="ab1_08" class="tv" title="AB1"></div>
-            <div id="ab1_09" class="tv" title="AB1"></div>
-            <div id="antenne2_01" class="tv" title="Antenne 2"></div>
-            <div id="antenne2_02" class="tv" title="Antenne 2"></div>
-            <div id="antenne2_03" class="tv" title="Antenne 2"></div>
-            <div id="antenne2_04" class="tv" title="Antenne 2"></div>
-            <div id="antenne2_05" class="tv" title="Antenne 2"></div>
-            <div id="antenne2_06" class="tv" title="Antenne 2"></div>
-            <div id="arte_01" class="tv" title="Arte"></div>
-            <div id="arte_02" class="tv" title="Arte"></div>
-            <div id="arte_03" class="tv" title="Arte"></div>
-            <div id="arte_04" class="tv" title="Arte"></div>
-            <div id="arte_05" class="tv" title="Arte"></div>
+                    <div class="title">
+                        <h1>Historique de la télévision française</h1>
+                        <div class="subtitle">Un historique des chaînes de télévision diffusées en France depuis avril 1935.</div>
+                    </div>
+                </div>
 
-            <!-- B -->
-            <div id="bfmtv_01" class="tv" title="BFM TV"></div>
-            <div id="bfmtv_02" class="tv" title="BFM TV"></div>
-            <div id="bfmtv_03" class="tv" title="BFM TV"></div>
+                <div class="toolbar">
+                    <span class="pill">Navigation au clavier disponible : <span class="kbd">←</span> / <span class="kbd">→</span></span>
+                </div>
+            </header>
 
-            <!-- C -->
-            <div id="c8_01" class="tv" title="C8"></div>
-            <div id="canalassembleenationale_01" class="tv" title="Canal Assemblée nationale"></div>
-            <div id="canalassemblee_01" class="tv" title="Canal Assemblées"></div>
-            <div id="canalplus_01" class="tv" title="Canal+"></div>
-            <div id="canalplus_02" class="tv" title="Canal+"></div>
-            <div id="canalpluscinema_01" class="tv" title="Canal+ Cinéma"></div>
-            <div id="canalpluscinema_02" class="tv" title="Canal+ Cinéma"></div>
-            <div id="canalpluscinema_03" class="tv" title="Canal+ Cinéma"></div>
-            <div id="canalpluscinema_04" class="tv" title="Canal+ Cinéma"></div>
-            <div id="canalpluscinema_05" class="tv" title="Canal+ Cinéma"></div>
-            <div id="canalpluscinema_06" class="tv" title="Canal+ Cinéma(s)"></div>
-            <div id="canalplusjaune_01" class="tv" title="Canal+ Jaune"></div>
-            <div id="canalplussport_01" class="tv" title="Canal+ Sport"></div>
-            <div id="canalplussport_02" class="tv" title="Canal+ Sport"></div>
-            <div id="canalplussport_03" class="tv" title="Canal+ Sport"></div>
-            <div id="canalplussport_04" class="tv" title="Canal+ Sport"></div>
-            <div id="canalplussport_05" class="tv" title="Canal+ Sport"></div>
-            <div id="canalplussport_06" class="tv" title="Canal+ Sport"></div>
-            <div id="canalplussport_07" class="tv" title="Canal+ Sport"></div>
-            <div id="canalplusvert_01" class="tv" title="Canal+ Vert"></div>
-            <div id="cherie25_01" class="tv" title="Chérie 25"></div>
-            <div id="cherie25_02" class="tv" title="Chérie 25"></div>
-            <div id="cnews_01" class="tv" title="CNews"></div>
-            <div id="cstar_01" class="tv" title="CStar"></div>
-            <div id="culturebox_01" class="tv" title="Culturebox"></div>
+            <section class="controls">
+                <div class="control" style="flex:2 1 420px">
+                    <div class="label">Mois sélectionné</div>
+                    <div class="value" id="labelMois">—</div>
+                    <input id="slider" type="range" min="0" step="1" value="0" />
+                </div>
 
-            <!-- D -->
-            <div id="d8_01" class="tv" title="D8"></div>
-            <div id="d17_01" class="tv" title="D17"></div>
-            <div id="d17_02" class="tv" title="D17"></div>
-            <div id="direct8_01" class="tv" title="Direct 8"></div>
-            <div id="direct8_02" class="tv" title="Direct 8"></div>
-            <div id="direct8_03" class="tv" title="Direct 8"></div>
-            <div id="direct8_04" class="tv" title="Direct 8"></div>
-            <div id="direct8_05" class="tv" title="Direct 8"></div>
-            <div id="directstar_01" class="tv" title="Direct Star"></div>
+                <div class="control" style="flex:1 1 260px">
+                    <div class="label">Rechercher une chaîne (par exemple : TF1)</div>
+                    <div class="searchbar">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M21 21l-4.3-4.3" stroke="var(--muted)" stroke-width="2" stroke-linecap="round"/><circle cx="11" cy="11" r="7" stroke="var(--muted)" stroke-width="2"/></svg>
+                        <input id="filter" type="text" placeholder="Saisissez le nom d'une chaîne ici…" />
+                    </div>
+                </div>
+            </section>
 
-            <!-- E -->
-            <div id="europe2tv_01" class="tv" title="Europe 2 TV"></div>
+            <section class="grid" id="grid"></section>
 
-            <!-- F -->
-            <div id="fernsehsender_paris_01" class="tv" title="Fernsehsender Paris"></div>
-            <div id="festival_01" class="tv" title="Festival"></div>
-            <div id="festival_02" class="tv" title="Festival"></div>
-            <div id="fr3_01" class="tv" title="France Régions 3 (FR3)"></div>
-            <div id="fr3_02" class="tv" title="France Régions 3 (FR3)"></div>
-            <div id="fr3_03" class="tv" title="France Régions 3 (FR3)"></div>
-            <div id="fr3_04" class="tv" title="France Régions 3 (FR3)"></div>
-            <div id="france2_01" class="tv" title="France 2"></div>
-            <div id="france2_02" class="tv" title="France 2"></div>
-            <div id="france2_03" class="tv" title="France 2"></div>
-            <div id="france2_04" class="tv" title="France 2"></div>
-            <div id="france2_05" class="tv" title="France 2"></div>
-            <div id="france3_01" class="tv" title="France 3"></div>
-            <div id="france3_02" class="tv" title="France 3"></div>
-            <div id="france3_03" class="tv" title="France 3"></div>
-            <div id="france3_04" class="tv" title="France 3"></div>
-            <div id="france4_01" class="tv" title="France 4"></div>
-            <div id="france4_02" class="tv" title="France 4"></div>
-            <div id="france4_03" class="tv" title="France 4"></div>
-            <div id="france4_04" class="tv" title="France 4"></div>
-            <div id="france4_05" class="tv" title="France 4"></div>
-            <div id="france5_01" class="tv" title="France 5"></div>
-            <div id="france5_02" class="tv" title="France 5"></div>
-            <div id="france5_03" class="tv" title="France 5"></div>
-            <div id="franceinfo_01" class="tv" title="Franceinfo"></div>
-            <div id="franceO_01" class="tv" title="France Ô"></div>
-            <div id="franceO_02" class="tv" title="France Ô"></div>
-            <div id="franceO_03" class="tv" title="France Ô"></div>
-
-            <!-- G -->
-            <div id="gulli_01" class="tv" title="Gulli"></div>
-            <div id="gulli_02" class="tv" title="Gulli"></div>
-            <div id="gulli_03" class="tv" title="Gulli"></div>
-            <div id="gulli_04" class="tv" title="Gulli"></div>
-
-            <!-- H -->
-            <div id="hd1_01" class="tv" title="HD1"></div>
-
-            <!-- I -->
-            <div id="itele_01" class="tv" title="I>TELE"></div>
-            <div id="itele_02" class="tv" title="ITELE"></div>
-            <div id="itele_03" class="tv" title="ITELE"></div>
-            <div id="itelevision_01" class="tv" title="i>télévision"></div>
-
-            <!-- L -->
-            <div id="lachainelequipe_01" class="tv" title="La chaîne l'Équipe"></div>
-            <div id="lacinq_01" class="tv" title="La Cinq"></div>
-            <div id="lacinq_02" class="tv" title="La Cinq"></div>
-            <div id="lacinq_03" class="tv" title="La Cinq"></div>
-            <div id="lacinquieme_01" class="tv" title="La Cinquième"></div>
-            <div id="lacinquieme_02" class="tv" title="La Cinquième"></div>
-            <div id="lasept_01" class="tv" title="La Sept"></div>
-            <div id="lci_01" class="tv" title="LCI"></div>
-            <div id="lci_02" class="tv" title="LCI"></div>
-            <div id="lci_03" class="tv" title="LCI"></div>
-            <div id="lci_04" class="tv" title="LCI"></div>
-            <div id="lcp_01" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_02" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_03" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_04" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_05" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_06" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_07" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_08" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lcp_09" class="tv" title="La Chaîne Parlementaire (LCP)"></div>
-            <div id="lequipe21_01" class="tv" title="L'Équipe 21"></div>
-            <div id="lequipetv_01" class="tv" title="L'Équipe TV"></div>
-            <div id="lequipetv_02" class="tv" title="L'Équipe TV"></div>
-            <div id="lequipetv_03" class="tv" title="L'Équipe TV"></div>
-            <div id="lequipetv_04" class="tv" title="L'Équipe TV"></div>
-
-            <!-- M -->
-            <div id="m6_01" class="tv" title="M6"></div>
-            <div id="m6_02" class="tv" title="M6"></div>
-            <div id="m6_03" class="tv" title="M6"></div>
-            <div id="m6_04" class="tv" title="M6"></div>
-            <div id="m6_05" class="tv" title="M6"></div>
-            <div id="m6_06" class="tv" title="M6"></div>
-
-            <!-- N -->
-            <div id="novo19_01" class="tv" title="Novo 19"></div>
-            <div id="nrj12_01" class="tv" title="NRJ 12"></div>
-            <div id="nrj12_02" class="tv" title="NRJ 12"></div>
-            <div id="nrj12_03" class="tv" title="NRJ 12"></div>
-            <div id="nt1_01" class="tv" title="NT1"></div>
-            <div id="nt1_02" class="tv" title="NT1"></div>
-            <div id="nt1_03" class="tv" title="NT1"></div>
-            <div id="numero23_01" class="tv" title="Numéro 23"></div>
-            <div id="numero23_02" class="tv" title="Numéro 23"></div>
-            <div id="numero23_03" class="tv" title="Numéro 23"></div>
-
-            <!-- O -->
-            <div id="oftv_01" class="tv" title="Ouest-France TV (OFTV)"></div>
-            <div id="ortf_01" class="tv" title="Première chaîne de l'ORTF"></div>
-            <div id="ortf2_01" class="tv" title="Deuxième chaîne de l'ORTF"></div>
-            <div id="ortf2_02" class="tv" title="Deuxième chaîne de l'ORTF"></div>
-            <div id="ortf2_03" class="tv" title="Deuxième chaîne de l'ORTF"></div>
-            <div id="ortf3_01" class="tv" title="Troisième chaîne couleur de l’ORTF"></div>
-
-            <!-- P -->
-            <div id="parispremiere_01" class="tv" title="Paris Première"></div>
-            <div id="parispremiere_02" class="tv" title="Paris Première"></div>
-            <div id="parispremiere_03" class="tv" title="Paris Première"></div>
-            <div id="planete_01" class="tv" title="Planète"></div>
-            <div id="planete_02" class="tv" title="Planète"></div>
-            <div id="planetecable_01" class="tv" title="Planète Câble"></div>
-            <div id="planeteplus_01" class="tv" title="Planète+"></div>
-
-            <!-- R -->
-            <div id="radiovision_ptt_01" class="tv" title="Radiovision-PTT"></div>
-            <div id="rdf_tf_01" class="tv" title="RDF Télévision française"></div>
-            <div id="rfosat_01" class="tv" title="RFO Sat"></div>
-            <div id="rfosat_02" class="tv" title="RFO Sat"></div>
-            <div id="rmcdecouverte_01" class="tv" title="RMC Découverte"></div>
-            <div id="rmcdecouverte_02" class="tv" title="RMC Découverte"></div>
-            <div id="rmcdecouverte_03" class="tv" title="RMC Découverte"></div>
-            <div id="rmclife_01" class="tv" title="RMC Life"></div>
-            <div id="rmcstory_01" class="tv" title="RMC Story"></div>
-            <div id="rmcstory_02" class="tv" title="RMC Story"></div>
-            <div id="rtf_01" class="tv" title="RTF Télévision"></div>
-            <div id="rtf_02" class="tv" title="RTF Télévision"></div>
-            <div id="rtf2_01" class="tv" title="RTF Télévision 2"></div>
-            <div id="rtt_01" class="tv" title="Radiodiffusion nationale Télévision"></div>
-            <div id="rtt_02" class="tv" title="Radiodiffusion nationale Télévision"></div>
-
-            <!-- T -->
-            <div id="t18_01" class="tv" title="T18"></div>
-            <div id="teleemploi_01" class="tv" title="Télé emploi"></div>
-            <div id="tf1_01" class="tv" title="Télévision Française 1 (TF1)"></div>
-            <div id="tf1_02" class="tv" title="Télévision Française 1 (TF1)"></div>
-            <div id="tf1_03" class="tv" title="Télévision Française 1 (TF1)"></div>
-            <div id="tf1_04" class="tv" title="Télévision Française 1 (TF1)"></div>
-            <div id="tf1_05" class="tv" title="Télévision Française 1 (TF1)"></div>
-            <div id="tf1_06" class="tv" title="Télévision Française 1 (TF1)"></div>
-            <div id="tf1seriesfilms_01" class="tv" title="TF1 Séries Films"></div>
-            <div id="tf1seriesfilms_02" class="tv" title="TF1 Séries Films"></div>
-            <div id="tfx_01" class="tv" title="TFX"></div>
-            <div id="tmc_01" class="tv" title="Télé Monte-Carlo"></div>
-            <div id="tmc_02" class="tv" title="TMC"></div>
-            <div id="tmc_03" class="tv" title="TMC"></div>
-            <div id="tmc_04" class="tv" title="TMC"></div>
-            <div id="tmc_05" class="tv" title="TMC"></div>
-            <div id="tmc_06" class="tv" title="TMC"></div>
-            <div id="tmc_07" class="tv" title="TMC"></div>
-            <div id="tmc_08" class="tv" title="TMC"></div>
-            <div id="tmc_09" class="tv" title="TMC"></div>
-            <div id="tmc_10" class="tv" title="Monte-Carlo TMC"></div>
-            <div id="tmc_11" class="tv" title="TMC"></div>
-            <div id="tmc_12" class="tv" title="TMC Monte-Carlo"></div>
-            <div id="tmc_13" class="tv" title="TMC"></div>
-            <div id="tmc_14" class="tv" title="TMC"></div>
-            <div id="tv6_01" class="tv" title="TV6"></div>
-
-            <!-- V -->
-            <div id="virgin17_01" class="tv" title="Virgin 17"></div>
-
-            <!-- W -->
-            <div id="w9_01" class="tv" title="W9"></div>
-            <div id="w9_02" class="tv" title="W9"></div>
-            <div id="w9_03" class="tv" title="W9"></div>
-            <div id="w9_04" class="tv" title="W9"></div>
+            <div class="footer">Dernière mise à jour des données effectuée le 27/09/2025 à 01h49.</div>
         </div>
 
-        <div id="controls">
-            <input type="range" id="month" min="0" value="0" />
-            <p id="currentMonth"></p>
-        </div>
-
-        <!--<script src="js/tvdb.js"></script>-->
         <script type="module" src="js/slider.js"></script>
     </body>
 </html>

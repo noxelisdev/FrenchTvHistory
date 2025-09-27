@@ -1,91 +1,97 @@
 import * as db from "./tvdb.json" with { type: 'json' };
 const SITE_START_YM = "1935-04";
-let SITE_END_YM;
+let SITE_END_YM = `${new Date().getFullYear()}-${String(new Date().getMonth()).padStart(2, "0")}`;
 
-function parseYM(ym) {
-    const [y, m] = ym.split("-").map(Number);
-    return { y, m };
-}
-
-function ymToIndexFrom(baseYM, ym) {
-    const b = parseYM(baseYM);
-    const t = parseYM(ym);
-    return (t.y - b.y) * 12 + (t.m - b.m);
-}
-
-function indexToYMFrom(baseYM, idx) {
-    const b = parseYM(baseYM);
-    const y = b.y + Math.floor((b.m - 1 + idx) / 12);
-    const m = ((b.m - 1 + idx) % 12) + 1;
-    return `${y}-${String(m).padStart(2, "0")}`;
-}
-
-function coversYM_inclusive(fromYM, toYM, ym, siteEndYM = SITE_END_YM) {
-    const to = toYM ?? siteEndYM;
+function parseYM(ym){ const [y,m]=ym.split("-").map(Number); return {y, m}; }
+function ymToIndexFrom(baseYM, ym){ const b=parseYM(baseYM), t=parseYM(ym); return (t.y-b.y)*12+(t.m-b.m); }
+function indexToYMFrom(baseYM, idx){ const b=parseYM(baseYM); const y=b.y+Math.floor((b.m-1+idx)/12); const m=((b.m-1+idx)%12)+1; return `${y}-${String(m).padStart(2,"0")}`; }
+function coversYM_inclusive(fromYM, toYM, ym){
     const i = ymToIndexFrom(SITE_START_YM, ym);
     const a = ymToIndexFrom(SITE_START_YM, fromYM);
-    const b = ymToIndexFrom(SITE_START_YM, to);
-    return a <= i && i <= b;
+    const b = (toYM ? ymToIndexFrom(SITE_START_YM, toYM) : Infinity);
+    return a <= i && i <= b; // to inclusif, null = ouvert
 }
 
-function computeSiteBounds(logos, fallbackEndYM = SITE_END_YM) {
-    let minYM = SITE_START_YM;
-    let maxYM = fallbackEndYM;
-
-    const allYMs = [];
-    for (const meta of Object.values(db.default)) {
-        const ranges = meta.ranges ?? [{ from: meta.from, to: meta.to ?? null }];
-
-        for (const r of ranges) {
-            allYMs.push(r.from);
-            allYMs.push(r.to ?? fallbackEndYM);
+function computeSiteBounds(logos, fallbackEndYM = SITE_END_YM){
+    const allFrom = []; const allTo = [];
+    for(const meta of Object.values(logos)){
+        for(const r of meta.ranges){
+            allFrom.push(r.from);
+            allTo.push(r.to ?? fallbackEndYM);
         }
     }
-
-    if (allYMs.length) {
-        minYM = allYMs.reduce((acc, ym) => ymToIndexFrom(SITE_START_YM, ym) < ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, allYMs[0]);
-        maxYM = allYMs.reduce((acc, ym) => ymToIndexFrom(SITE_START_YM, ym) > ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, allYMs[0]);
-    }
-
-    const minIndex = ymToIndexFrom(SITE_START_YM, minYM);
-    const maxIndex = ymToIndexFrom(SITE_START_YM, maxYM);
-    return { minYM, maxYM, minIndex, maxIndex };
+    const minFrom = allFrom.reduce((acc,ym)=> ymToIndexFrom(SITE_START_YM, ym) < ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, SITE_START_YM);
+    const maxTo   = allTo.reduce((acc,ym)=> ymToIndexFrom(SITE_START_YM, ym) > ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, fallbackEndYM);
+    return { minIndex: ymToIndexFrom(SITE_START_YM, minFrom), maxIndex: ymToIndexFrom(SITE_START_YM, maxTo) };
 }
 
-function getActiveIdsForIndex(index, siteEndYM = SITE_END_YM) {
+function monthLabel(ym){
+    const months = [ "Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre" ];
+    const {y,m} = parseYM(ym);
+    return `${months[m-1]} ${y}`;
+}
+
+function getActiveRange(ranges, ym){
+    return ranges.find(r => coversYM_inclusive(r.from, r.to, ym));
+}
+
+function getActiveIdsForIndex(logos, index, siteEndYM = SITE_END_YM){
     const ym = indexToYMFrom(SITE_START_YM, index);
-    const active = [];
-
-    for (const [id, meta] of Object.entries(db.default)) {
-        const ranges = meta.ranges ?? [{ from: meta.from, to: meta.to ?? null }];
-        if (ranges.some(r => coversYM_inclusive(r.from, r.to ?? null, ym, siteEndYM))) {
-            active.push(id);
-        }
+    const items = [];
+    for(const [id, meta] of Object.entries(logos)){
+        const active = getActiveRange(meta.ranges, ym);
+        if(active){ items.push({ id, meta, active }); }
     }
-
-    return { ym, ids: active };
+    return { ym, items };
 }
 
-function capitalizeFirstLetter(val) {
-    return String(val).charAt(0).toUpperCase() + String(val).slice(1);
+function createCard(id, meta, active){
+    const el = document.createElement('article');
+    console.log(active);
+    const [yFrom, mFrom] = active.from.split("-");
+    const [yTo, mTo] = (active.to ? active.to.split("-") : [new Date().getFullYear(), String(new Date().getMonth()).padStart(2, "0")]);
+
+    el.className = 'card';
+    el.innerHTML = `
+        <div class="logo-wrap">
+          <div id="${id}" class="logo" aria-label="${meta.name}"></div>
+        </div>
+        <div class="meta">
+          <div class="name">${meta.name}</div>
+          <div class="period">${mFrom}/${yFrom} → ${active.to ? `${mTo}/${yTo}` : "Aujourd'hui"}</div>
+        </div>
+      `;
+
+    return el;
 }
 
-function renderForIndex(i) {
-    const { ym, ids } = getActiveIdsForIndex(Number(i));
-    document.getElementById("currentMonth").textContent = `${capitalizeFirstLetter(new Date(ym).toLocaleString('default', { month: 'long' }))} ${ym.substring(0, 4)}`;
+const grid = document.getElementById('grid');
+const slider = document.getElementById('slider');
+const labelMois = document.getElementById('labelMois');
+const filterInput = document.getElementById('filter');
+const bounds = computeSiteBounds(db.default);
 
-    Array.from(document.getElementsByClassName("show")).forEach((element) => {
-        element.classList.remove("show");
-    });
+slider.min = 0;
+slider.max = bounds.maxIndex;
+slider.value = bounds.maxIndex;
 
-    ids.forEach((id) => {
-        document.getElementById(id).classList.add("show");
-    })
+function render(){
+    const { ym, items } = getActiveIdsForIndex(db.default, Number(slider.value));
+    labelMois.textContent = `${monthLabel(ym)}`;
+    const q = filterInput.value.trim().toLowerCase();
+    grid.innerHTML = '';
+    items
+        .filter(({ meta })=> q ? (meta.name.toLowerCase().includes(q)) : true)
+        .sort((a,b)=> a.meta.name.localeCompare(b.meta.name) || a.id.localeCompare(b.id))
+        .forEach(({ id, meta, active })=> grid.appendChild(createCard(id, meta, active)));
 }
 
-const { maxYM, maxIndex } = computeSiteBounds(db.default);
-SITE_END_YM = maxYM;
-document.getElementById("month").min = 0;
-document.getElementById("month").max = maxIndex;
-document.getElementById("month").addEventListener("input", (e) => renderForIndex(e.target.value));
-renderForIndex(0);
+slider.addEventListener('input', render);
+filterInput.addEventListener('input', render);
+
+window.addEventListener('keydown', (e)=>{
+    if(e.key==='ArrowLeft'){ slider.value = Math.max(Number(slider.min), Number(slider.value)-1); render(); }
+    if(e.key==='ArrowRight'){ slider.value = Math.min(Number(slider.max), Number(slider.value)+1); render(); }
+});
+
+render();
