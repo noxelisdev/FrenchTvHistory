@@ -197,12 +197,8 @@ input[type="range"]::-moz-range-thumb {
     display:grid;
     place-items:center;
     border-radius:12px;
-    background:#0b111c;
-    border:1px dashed rgba(255,255,255,.06)
-}
-
-.card .logo-wrap.light {
     background:#f4eee3;
+    border:1px dashed rgba(255,255,255,.06)
 }
 
 .logo {
