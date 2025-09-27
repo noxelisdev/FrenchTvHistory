@@ -1,4 +1,31 @@
 {
+	"13emerue_01": {
+		"name": "13ème Rue",
+		"ranges": [
+			{
+				"from": "1997-11",
+				"to": "2010-10"
+			}
+		]
+	},
+	"13emerue_02": {
+		"name": "13ème Rue",
+		"ranges": [
+			{
+				"from": "2010-11",
+				"to": "2017-02"
+			}
+		]
+	},
+	"13emerue_03": {
+		"name": "13ème Rue",
+		"ranges": [
+			{
+				"from": "2017-03",
+				"to": null
+			}
+		]
+	},
 	"6ter_01": {
 		"name": "6ter",
 		"ranges": [

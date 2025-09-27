@@ -201,6 +201,10 @@ input[type="range"]::-moz-range-thumb {
     border:1px dashed rgba(255,255,255,.06)
 }
 
+.card .logo-wrap.light {
+    background:#f4eee3;
+}
+
 .logo {
     width:100%;
     max-width:120px;
