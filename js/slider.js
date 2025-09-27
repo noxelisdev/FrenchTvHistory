@@ -47,7 +47,6 @@ function getActiveIdsForIndex(logos, index, siteEndYM = SITE_END_YM){
 
 function createCard(id, meta, active){
     const el = document.createElement('article');
-    console.log(active);
     const [yFrom, mFrom] = active.from.split("-");
     const [yTo, mTo] = (active.to ? active.to.split("-") : [new Date().getFullYear(), String(new Date().getMonth()).padStart(2, "0")]);
 
