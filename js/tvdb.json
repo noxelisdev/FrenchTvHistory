@@ -354,6 +354,15 @@
 			}
 		]
 	},
+	"babytv_01": {
+		"name": "Baby TV",
+		"ranges": [
+			{
+				"from": "2003-12",
+				"to": null
+			}
+		]
+	},
 	"bfmtv_01": {
 		"name": "BFM TV",
 		"ranges": [
