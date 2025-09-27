@@ -561,6 +561,42 @@
 			}
 		]
 	},
+	"bfmbusiness_01": {
+		"name": "BFM Business",
+		"ranges": [
+			{
+				"from": "2010-11",
+				"to": "2016-08"
+			}
+		]
+	},
+	"bfmbusiness_02": {
+		"name": "BFM Business",
+		"ranges": [
+			{
+				"from": "2016-09",
+				"to": "2020-01"
+			}
+		]
+	},
+	"bfmbusiness_03": {
+		"name": "BFM Business",
+		"ranges": [
+			{
+				"from": "2020-02",
+				"to": "2022-12"
+			}
+		]
+	},
+	"bfmbusiness_04": {
+		"name": "BFM Business",
+		"ranges": [
+			{
+				"from": "2023-01",
+				"to": null
+			}
+		]
+	},
 	"bfmtv_01": {
 		"name": "BFM TV",
 		"ranges": [
