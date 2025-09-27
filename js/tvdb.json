@@ -543,6 +543,24 @@
 			}
 		]
 	},
+	"bet_01": {
+		"name": "BET",
+		"ranges": [
+			{
+				"from": "2015-11",
+				"to": "2020-12"
+			}
+		]
+	},
+	"bet_02": {
+		"name": "BET",
+		"ranges": [
+			{
+				"from": "2021-01",
+				"to": null
+			}
+		]
+	},
 	"bfmtv_01": {
 		"name": "BFM TV",
 		"ranges": [
