@@ -1,5 +1,6 @@
 {
 	"6ter_01": {
+		"name": "6ter",
 		"ranges": [
 			{
 				"from": "2012-12",
@@ -8,14 +9,16 @@
 		]
 	},
 	"6ter_02": {
+		"name": "6ter",
 		"ranges": [
 			{
 				"from": "2016-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"ab1_01": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "1995-12",
@@ -24,6 +27,7 @@
 		]
 	},
 	"ab1_02": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "1997-01",
@@ -32,6 +36,7 @@
 		]
 	},
 	"ab1_03": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "2000-01",
@@ -40,6 +45,7 @@
 		]
 	},
 	"ab1_04": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "2001-01",
@@ -52,6 +58,7 @@
 		]
 	},
 	"ab1_05": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "2002-07",
@@ -60,6 +67,7 @@
 		]
 	},
 	"ab1_06": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "2009-01",
@@ -68,6 +76,7 @@
 		]
 	},
 	"ab1_07": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "2011-12",
@@ -76,6 +85,7 @@
 		]
 	},
 	"ab1_08": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "2021-09",
@@ -84,14 +94,16 @@
 		]
 	},
 	"ab1_09": {
+		"name": "AB1",
 		"ranges": [
 			{
 				"from": "2024-04",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"antenne2_01": {
+		"name": "Antenne 2",
 		"ranges": [
 			{
 				"from": "1975-01",
@@ -100,6 +112,7 @@
 		]
 	},
 	"antenne2_02": {
+		"name": "Antenne 2",
 		"ranges": [
 			{
 				"from": "1983-09",
@@ -108,6 +121,7 @@
 		]
 	},
 	"antenne2_03": {
+		"name": "Antenne 2",
 		"ranges": [
 			{
 				"from": "1986-04",
@@ -116,6 +130,7 @@
 		]
 	},
 	"antenne2_04": {
+		"name": "Antenne 2",
 		"ranges": [
 			{
 				"from": "1987-09",
@@ -124,6 +139,7 @@
 		]
 	},
 	"antenne2_05": {
+		"name": "Antenne 2",
 		"ranges": [
 			{
 				"from": "1988-01",
@@ -132,6 +148,7 @@
 		]
 	},
 	"antenne2_06": {
+		"name": "Antenne 2",
 		"ranges": [
 			{
 				"from": "1990-11",
@@ -140,6 +157,7 @@
 		]
 	},
 	"arte_01": {
+		"name": "Arte",
 		"ranges": [
 			{
 				"from": "1992-06",
@@ -148,6 +166,7 @@
 		]
 	},
 	"arte_02": {
+		"name": "Arte",
 		"ranges": [
 			{
 				"from": "1995-01",
@@ -156,6 +175,7 @@
 		]
 	},
 	"arte_03": {
+		"name": "Arte",
 		"ranges": [
 			{
 				"from": "2004-01",
@@ -164,6 +184,7 @@
 		]
 	},
 	"arte_04": {
+		"name": "Arte",
 		"ranges": [
 			{
 				"from": "2011-03",
@@ -172,14 +193,16 @@
 		]
 	},
 	"arte_05": {
+		"name": "Arte",
 		"ranges": [
 			{
 				"from": "2017-04",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"bfmtv_01": {
+		"name": "BFM TV",
 		"ranges": [
 			{
 				"from": "2005-11",
@@ -188,6 +211,7 @@
 		]
 	},
 	"bfmtv_02": {
+		"name": "BFM TV",
 		"ranges": [
 			{
 				"from": "2016-04",
@@ -196,14 +220,16 @@
 		]
 	},
 	"bfmtv_03": {
+		"name": "BFM TV",
 		"ranges": [
 			{
 				"from": "2019-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"c8_01": {
+		"name": "C8",
 		"ranges": [
 			{
 				"from": "2016-09",
@@ -212,6 +238,7 @@
 		]
 	},
 	"canalassemblee_01": {
+		"name": "Canal Assemblée",
 		"ranges": [
 			{
 				"from": "1996-04",
@@ -220,6 +247,7 @@
 		]
 	},
 	"canalassembleenationale_01": {
+		"name": "Canal Assemblée nationale",
 		"ranges": [
 			{
 				"from": "1993-10",
@@ -228,6 +256,7 @@
 		]
 	},
 	"canalplus_01": {
+		"name": "Canal+",
 		"ranges": [
 			{
 				"from": "1984-11",
@@ -236,14 +265,16 @@
 		]
 	},
 	"canalplus_02": {
+		"name": "Canal+",
 		"ranges": [
 			{
 				"from": "1995-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"canalpluscinema_01": {
+		"name": "Canal+ Cinéma",
 		"ranges": [
 			{
 				"from": "2003-11",
@@ -252,6 +283,7 @@
 		]
 	},
 	"canalpluscinema_02": {
+		"name": "Canal+ Cinéma",
 		"ranges": [
 			{
 				"from": "2005-03",
@@ -260,6 +292,7 @@
 		]
 	},
 	"canalpluscinema_03": {
+		"name": "Canal+ Cinéma",
 		"ranges": [
 			{
 				"from": "2006-07",
@@ -268,6 +301,7 @@
 		]
 	},
 	"canalpluscinema_04": {
+		"name": "Canal+ Cinéma",
 		"ranges": [
 			{
 				"from": "2009-09",
@@ -276,6 +310,7 @@
 		]
 	},
 	"canalpluscinema_05": {
+		"name": "Canal+ Cinéma",
 		"ranges": [
 			{
 				"from": "2013-10",
@@ -284,14 +319,16 @@
 		]
 	},
 	"canalpluscinema_06": {
+		"name": "Canal+ Cinéma",
 		"ranges": [
 			{
 				"from": "2023-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"canalplusjaune_01": {
+		"name": "Canal+ Jaune",
 		"ranges": [
 			{
 				"from": "1996-04",
@@ -300,6 +337,7 @@
 		]
 	},
 	"canalplussport_01": {
+		"name": "Canal+ Sport",
 		"ranges": [
 			{
 				"from": "2003-11",
@@ -308,6 +346,7 @@
 		]
 	},
 	"canalplussport_02": {
+		"name": "Canal+ Sport",
 		"ranges": [
 			{
 				"from": "2005-03",
@@ -316,6 +355,7 @@
 		]
 	},
 	"canalplussport_03": {
+		"name": "Canal+ Sport",
 		"ranges": [
 			{
 				"from": "2006-07",
@@ -324,6 +364,7 @@
 		]
 	},
 	"canalplussport_04": {
+		"name": "Canal+ Sport",
 		"ranges": [
 			{
 				"from": "2009-09",
@@ -332,6 +373,7 @@
 		]
 	},
 	"canalplussport_05": {
+		"name": "Canal+ Sport",
 		"ranges": [
 			{
 				"from": "2013-10",
@@ -340,14 +382,16 @@
 		]
 	},
 	"canalplussport_06": {
+		"name": "Canal+ Sport",
 		"ranges": [
 			{
 				"from": "2023-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"canalplusvert_01": {
+		"name": "Canal+ Vert",
 		"ranges": [
 			{
 				"from": "1999-08",
@@ -356,6 +400,7 @@
 		]
 	},
 	"cherie25_01": {
+		"name": "Chérie 25",
 		"ranges": [
 			{
 				"from": "2012-12",
@@ -364,6 +409,7 @@
 		]
 	},
 	"cherie25_02": {
+		"name": "Chérie 25",
 		"ranges": [
 			{
 				"from": "2015-11",
@@ -372,22 +418,25 @@
 		]
 	},
 	"cnews_01": {
+		"name": "CNews",
 		"ranges": [
 			{
 				"from": "2017-02",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"cstar_01": {
+		"name": "CStar",
 		"ranges": [
 			{
 				"from": "2016-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"culturebox_01": {
+		"name": "Culturebox",
 		"ranges": [
 			{
 				"from": "2021-02",
@@ -396,6 +445,7 @@
 		]
 	},
 	"d17_01": {
+		"name": "D17",
 		"ranges": [
 			{
 				"from": "2012-10",
@@ -404,6 +454,7 @@
 		]
 	},
 	"d17_02": {
+		"name": "D17",
 		"ranges": [
 			{
 				"from": "2016-02",
@@ -412,6 +463,7 @@
 		]
 	},
 	"d8_01": {
+		"name": "D8",
 		"ranges": [
 			{
 				"from": "2012-10",
@@ -420,6 +472,7 @@
 		]
 	},
 	"direct8_01": {
+		"name": "Direct 8",
 		"ranges": [
 			{
 				"from": "2005-03",
@@ -428,6 +481,7 @@
 		]
 	},
 	"direct8_02": {
+		"name": "Direct 8",
 		"ranges": [
 			{
 				"from": "2007-01",
@@ -436,6 +490,7 @@
 		]
 	},
 	"direct8_03": {
+		"name": "Direct 8",
 		"ranges": [
 			{
 				"from": "2007-07",
@@ -444,6 +499,7 @@
 		]
 	},
 	"direct8_04": {
+		"name": "Direct 8",
 		"ranges": [
 			{
 				"from": "2008-09",
@@ -452,6 +508,7 @@
 		]
 	},
 	"direct8_05": {
+		"name": "Direct 8",
 		"ranges": [
 			{
 				"from": "2009-09",
@@ -460,6 +517,7 @@
 		]
 	},
 	"directstar_01": {
+		"name": "Direct Star",
 		"ranges": [
 			{
 				"from": "2010-09",
@@ -468,6 +526,7 @@
 		]
 	},
 	"europe2tv_01": {
+		"name": "Europe 2 TV",
 		"ranges": [
 			{
 				"from": "2005-10",
@@ -476,6 +535,7 @@
 		]
 	},
 	"fernsehsender_paris_01": {
+		"name": "Fernsehsender Paris",
 		"ranges": [
 			{
 				"from": "1943-05",
@@ -484,6 +544,7 @@
 		]
 	},
 	"festival_01": {
+		"name": "Festival",
 		"ranges": [
 			{
 				"from": "1996-06",
@@ -492,6 +553,7 @@
 		]
 	},
 	"festival_02": {
+		"name": "Festival",
 		"ranges": [
 			{
 				"from": "2001-11",
@@ -500,6 +562,7 @@
 		]
 	},
 	"fr3_01": {
+		"name": "FR3",
 		"ranges": [
 			{
 				"from": "1975-01",
@@ -508,6 +571,7 @@
 		]
 	},
 	"fr3_02": {
+		"name": "FR3",
 		"ranges": [
 			{
 				"from": "1986-05",
@@ -516,6 +580,7 @@
 		]
 	},
 	"fr3_03": {
+		"name": "FR3",
 		"ranges": [
 			{
 				"from": "1988-01",
@@ -524,6 +589,7 @@
 		]
 	},
 	"fr3_04": {
+		"name": "FR3",
 		"ranges": [
 			{
 				"from": "1991-01",
@@ -532,6 +598,7 @@
 		]
 	},
 	"france2_01": {
+		"name": "France 2",
 		"ranges": [
 			{
 				"from": "1992-09",
@@ -540,6 +607,7 @@
 		]
 	},
 	"france2_02": {
+		"name": "France 2",
 		"ranges": [
 			{
 				"from": "2002-01",
@@ -548,6 +616,7 @@
 		]
 	},
 	"france2_03": {
+		"name": "France 2",
 		"ranges": [
 			{
 				"from": "2008-04",
@@ -556,14 +625,16 @@
 		]
 	},
 	"france2_04": {
+		"name": "France 2",
 		"ranges": [
 			{
 				"from": "2018-02",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"france3_01": {
+		"name": "France 3",
 		"ranges": [
 			{
 				"from": "1992-09",
@@ -572,6 +643,7 @@
 		]
 	},
 	"france3_02": {
+		"name": "France 3",
 		"ranges": [
 			{
 				"from": "2002-01",
@@ -580,6 +652,7 @@
 		]
 	},
 	"france3_03": {
+		"name": "France 3",
 		"ranges": [
 			{
 				"from": "2008-04",
@@ -588,14 +661,16 @@
 		]
 	},
 	"france3_04": {
+		"name": "France 3",
 		"ranges": [
 			{
 				"from": "2018-02",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"france4_01": {
+		"name": "France 4",
 		"ranges": [
 			{
 				"from": "2005-04",
@@ -604,6 +679,7 @@
 		]
 	},
 	"france4_02": {
+		"name": "France 4",
 		"ranges": [
 			{
 				"from": "2008-04",
@@ -612,6 +688,7 @@
 		]
 	},
 	"france4_03": {
+		"name": "France 4",
 		"ranges": [
 			{
 				"from": "2018-02",
@@ -620,6 +697,7 @@
 		]
 	},
 	"france4_04": {
+		"name": "France 4",
 		"ranges": [
 			{
 				"from": "2021-05",
@@ -628,14 +706,16 @@
 		]
 	},
 	"france4_05": {
+		"name": "France 4",
 		"ranges": [
 			{
 				"from": "2021-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"france5_01": {
+		"name": "France 5",
 		"ranges": [
 			{
 				"from": "2002-01",
@@ -644,6 +724,7 @@
 		]
 	},
 	"france5_02": {
+		"name": "France 5",
 		"ranges": [
 			{
 				"from": "2008-04",
@@ -652,14 +733,16 @@
 		]
 	},
 	"france5_03": {
+		"name": "France 5",
 		"ranges": [
 			{
 				"from": "2018-02",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"franceO_01": {
+		"name": "France Ô",
 		"ranges": [
 			{
 				"from": "2005-03",
@@ -668,6 +751,7 @@
 		]
 	},
 	"franceO_02": {
+		"name": "France Ô",
 		"ranges": [
 			{
 				"from": "2008-04",
@@ -676,6 +760,7 @@
 		]
 	},
 	"franceO_03": {
+		"name": "France Ô",
 		"ranges": [
 			{
 				"from": "2018-02",
@@ -684,14 +769,16 @@
 		]
 	},
 	"franceinfo_01": {
+		"name": "France Info",
 		"ranges": [
 			{
 				"from": "2016-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"gulli_01": {
+		"name": "Gulli",
 		"ranges": [
 			{
 				"from": "2005-11",
@@ -700,6 +787,7 @@
 		]
 	},
 	"gulli_02": {
+		"name": "Gulli",
 		"ranges": [
 			{
 				"from": "2010-04",
@@ -708,6 +796,7 @@
 		]
 	},
 	"gulli_03": {
+		"name": "Gulli",
 		"ranges": [
 			{
 				"from": "2017-09",
@@ -716,14 +805,16 @@
 		]
 	},
 	"gulli_04": {
+		"name": "Gulli",
 		"ranges": [
 			{
 				"from": "2023-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"hd1_01": {
+		"name": "HD1",
 		"ranges": [
 			{
 				"from": "2012-12",
@@ -732,6 +823,7 @@
 		]
 	},
 	"itele_01": {
+		"name": "i>Télé",
 		"ranges": [
 			{
 				"from": "2002-09",
@@ -740,6 +832,7 @@
 		]
 	},
 	"itele_02": {
+		"name": "iTélé",
 		"ranges": [
 			{
 				"from": "2008-09",
@@ -748,6 +841,7 @@
 		]
 	},
 	"itele_03": {
+		"name": "iTélé",
 		"ranges": [
 			{
 				"from": "2013-08",
@@ -756,6 +850,7 @@
 		]
 	},
 	"itelevision_01": {
+		"name": "i>télévision",
 		"ranges": [
 			{
 				"from": "1998-11",
@@ -764,14 +859,16 @@
 		]
 	},
 	"lachainelequipe_01": {
+		"name": "La chaîne L'Équipe",
 		"ranges": [
 			{
 				"from": "2016-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"lacinq_01": {
+		"name": "La Cinq",
 		"ranges": [
 			{
 				"from": "1986-02",
@@ -780,6 +877,7 @@
 		]
 	},
 	"lacinq_02": {
+		"name": "La Cinq",
 		"ranges": [
 			{
 				"from": "1987-09",
@@ -788,6 +886,7 @@
 		]
 	},
 	"lacinq_03": {
+		"name": "La Cinq",
 		"ranges": [
 			{
 				"from": "1991-04",
@@ -796,6 +895,7 @@
 		]
 	},
 	"lacinquieme_01": {
+		"name": "La Cinquième",
 		"ranges": [
 			{
 				"from": "1994-12",
@@ -804,6 +904,7 @@
 		]
 	},
 	"lacinquieme_02": {
+		"name": "La Cinquième",
 		"ranges": [
 			{
 				"from": "1999-11",
@@ -812,6 +913,7 @@
 		]
 	},
 	"lasept_01": {
+		"name": "La Sept",
 		"ranges": [
 			{
 				"from": "1989-06",
@@ -820,6 +922,7 @@
 		]
 	},
 	"lci_01": {
+		"name": "LCI",
 		"ranges": [
 			{
 				"from": "1993-11",
@@ -828,6 +931,7 @@
 		]
 	},
 	"lci_02": {
+		"name": "LCI",
 		"ranges": [
 			{
 				"from": "2012-01",
@@ -836,6 +940,7 @@
 		]
 	},
 	"lci_03": {
+		"name": "LCI",
 		"ranges": [
 			{
 				"from": "2016-01",
@@ -844,14 +949,16 @@
 		]
 	},
 	"lci_04": {
+		"name": "LCI",
 		"ranges": [
 			{
 				"from": "2017-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"lcp_01": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2000-01",
@@ -860,6 +967,7 @@
 		]
 	},
 	"lcp_02": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2002-01",
@@ -868,6 +976,7 @@
 		]
 	},
 	"lcp_03": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2005-01",
@@ -876,6 +985,7 @@
 		]
 	},
 	"lcp_04": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2006-01",
@@ -884,6 +994,7 @@
 		]
 	},
 	"lcp_05": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2007-01",
@@ -892,6 +1003,7 @@
 		]
 	},
 	"lcp_06": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2010-02",
@@ -900,6 +1012,7 @@
 		]
 	},
 	"lcp_07": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2016-10",
@@ -908,6 +1021,7 @@
 		]
 	},
 	"lcp_08": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2019-09",
@@ -916,14 +1030,16 @@
 		]
 	},
 	"lcp_09": {
+		"name": "LCP",
 		"ranges": [
 			{
 				"from": "2019-10",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"lequipe21_01": {
+		"name": "L'Équipe 21",
 		"ranges": [
 			{
 				"from": "2013-01",
@@ -932,6 +1048,7 @@
 		]
 	},
 	"lequipetv_01": {
+		"name": "L'Équipe TV",
 		"ranges": [
 			{
 				"from": "1998-03",
@@ -940,6 +1057,7 @@
 		]
 	},
 	"lequipetv_02": {
+		"name": "L'Équipe TV",
 		"ranges": [
 			{
 				"from": "1999-01",
@@ -948,6 +1066,7 @@
 		]
 	},
 	"lequipetv_03": {
+		"name": "L'Équipe TV",
 		"ranges": [
 			{
 				"from": "2001-01",
@@ -956,6 +1075,7 @@
 		]
 	},
 	"lequipetv_04": {
+		"name": "L'Équipe TV",
 		"ranges": [
 			{
 				"from": "2005-01",
@@ -964,6 +1084,7 @@
 		]
 	},
 	"m6_01": {
+		"name": "M6",
 		"ranges": [
 			{
 				"from": "1987-03",
@@ -972,6 +1093,7 @@
 		]
 	},
 	"m6_02": {
+		"name": "M6",
 		"ranges": [
 			{
 				"from": "1987-04",
@@ -980,6 +1102,7 @@
 		]
 	},
 	"m6_03": {
+		"name": "M6",
 		"ranges": [
 			{
 				"from": "1987-09",
@@ -988,6 +1111,7 @@
 		]
 	},
 	"m6_04": {
+		"name": "M6",
 		"ranges": [
 			{
 				"from": "1999-09",
@@ -996,6 +1120,7 @@
 		]
 	},
 	"m6_05": {
+		"name": "M6",
 		"ranges": [
 			{
 				"from": "2009-11",
@@ -1004,22 +1129,25 @@
 		]
 	},
 	"m6_06": {
+		"name": "M6",
 		"ranges": [
 			{
 				"from": "2020-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"novo19_01": {
+		"name": "Novo19",
 		"ranges": [
 			{
 				"from": "2025-09",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"nrj12_01": {
+		"name": "NRJ 12",
 		"ranges": [
 			{
 				"from": "2005-03",
@@ -1028,6 +1156,7 @@
 		]
 	},
 	"nrj12_02": {
+		"name": "NRJ 12",
 		"ranges": [
 			{
 				"from": "2007-09",
@@ -1036,6 +1165,7 @@
 		]
 	},
 	"nrj12_03": {
+		"name": "NRJ 12",
 		"ranges": [
 			{
 				"from": "2015-09",
@@ -1044,6 +1174,7 @@
 		]
 	},
 	"nt1_01": {
+		"name": "NT1",
 		"ranges": [
 			{
 				"from": "2005-03",
@@ -1052,6 +1183,7 @@
 		]
 	},
 	"nt1_02": {
+		"name": "NT1",
 		"ranges": [
 			{
 				"from": "2008-09",
@@ -1060,6 +1192,7 @@
 		]
 	},
 	"nt1_03": {
+		"name": "NT1",
 		"ranges": [
 			{
 				"from": "2012-09",
@@ -1068,6 +1201,7 @@
 		]
 	},
 	"numero23_01": {
+		"name": "Numéro 23",
 		"ranges": [
 			{
 				"from": "2012-12",
@@ -1076,6 +1210,7 @@
 		]
 	},
 	"numero23_02": {
+		"name": "Numéro 23",
 		"ranges": [
 			{
 				"from": "2013-07",
@@ -1084,6 +1219,7 @@
 		]
 	},
 	"numero23_03": {
+		"name": "Numéro 23",
 		"ranges": [
 			{
 				"from": "2017-01",
@@ -1092,6 +1228,7 @@
 		]
 	},
 	"ortf2_01": {
+		"name": "Deuxième chaîne de l'ORTF",
 		"ranges": [
 			{
 				"from": "1964-08",
@@ -1100,6 +1237,7 @@
 		]
 	},
 	"ortf2_02": {
+		"name": "Deuxième chaîne de l'ORTF",
 		"ranges": [
 			{
 				"from": "1967-10",
@@ -1108,6 +1246,7 @@
 		]
 	},
 	"ortf2_03": {
+		"name": "Deuxième chaîne de l'ORTF",
 		"ranges": [
 			{
 				"from": "1972-02",
@@ -1116,6 +1255,7 @@
 		]
 	},
 	"ortf3_01": {
+		"name": "Troisième chaîne de l'ORTF",
 		"ranges": [
 			{
 				"from": "1973-01",
@@ -1124,6 +1264,7 @@
 		]
 	},
 	"ortf_01": {
+		"name": "Première chaîne de l'ORTF",
 		"ranges": [
 			{
 				"from": "1964-08",
@@ -1132,6 +1273,7 @@
 		]
 	},
 	"parispremiere_01": {
+		"name": "Paris Première",
 		"ranges": [
 			{
 				"from": "1986-12",
@@ -1140,6 +1282,7 @@
 		]
 	},
 	"parispremiere_02": {
+		"name": "Paris Première",
 		"ranges": [
 			{
 				"from": "1995-10",
@@ -1148,14 +1291,16 @@
 		]
 	},
 	"parispremiere_03": {
+		"name": "Paris Première",
 		"ranges": [
 			{
 				"from": "2011-10",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"planete_01": {
+		"name": "Planète",
 		"ranges": [
 			{
 				"from": "1999-09",
@@ -1164,6 +1309,7 @@
 		]
 	},
 	"planete_02": {
+		"name": "Planète",
 		"ranges": [
 			{
 				"from": "2004-02",
@@ -1172,6 +1318,7 @@
 		]
 	},
 	"planetecable_01": {
+		"name": "Planète Câble",
 		"ranges": [
 			{
 				"from": "1988-09",
@@ -1180,14 +1327,16 @@
 		]
 	},
 	"planeteplus_01": {
+		"name": "Planète+",
 		"ranges": [
 			{
 				"from": "2011-06",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"radiovision_ptt_01": {
+		"name": "Radiovision-PTT",
 		"ranges": [
 			{
 				"from": "1935-04",
@@ -1196,6 +1345,7 @@
 		]
 	},
 	"rdf_tf_01": {
+		"name": "RDF Télévision française",
 		"ranges": [
 			{
 				"from": "1944-10",
@@ -1204,6 +1354,7 @@
 		]
 	},
 	"rfosat_01": {
+		"name": "RFO Sat",
 		"ranges": [
 			{
 				"from": "1998-03",
@@ -1212,6 +1363,7 @@
 		]
 	},
 	"rfosat_02": {
+		"name": "RFO Sat",
 		"ranges": [
 			{
 				"from": "1999-02",
@@ -1220,6 +1372,7 @@
 		]
 	},
 	"rmcdecouverte_01": {
+		"name": "RMC Découverte",
 		"ranges": [
 			{
 				"from": "2012-12",
@@ -1228,6 +1381,7 @@
 		]
 	},
 	"rmcdecouverte_02": {
+		"name": "RMC Découverte",
 		"ranges": [
 			{
 				"from": "2017-09",
@@ -1236,22 +1390,25 @@
 		]
 	},
 	"rmcdecouverte_03": {
+		"name": "RMC Découverte",
 		"ranges": [
 			{
 				"from": "2025-10",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"rmclife_01": {
+		"name": "RMC Life",
 		"ranges": [
 			{
 				"from": "2025-10",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"rmcstory_01": {
+		"name": "RMC Story",
 		"ranges": [
 			{
 				"from": "2019-09",
@@ -1260,14 +1417,16 @@
 		]
 	},
 	"rmcstory_02": {
+		"name": "RMC Story",
 		"ranges": [
 			{
 				"from": "2025-10",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"rtf2_01": {
+		"name": "Deuxième chaîne de la RTF",
 		"ranges": [
 			{
 				"from": "1964-04",
@@ -1276,6 +1435,7 @@
 		]
 	},
 	"rtf_01": {
+		"name": "Télévision française",
 		"ranges": [
 			{
 				"from": "1949-02",
@@ -1284,14 +1444,25 @@
 		]
 	},
 	"rtf_02": {
+		"name": "Télévision française",
 		"ranges": [
 			{
 				"from": "1959-02",
+				"to": "1964-03"
+			}
+		]
+	},
+	"rtf_03": {
+		"name": "Première chaîne de la RTF",
+		"ranges": [
+			{
+				"from": "1964-04",
 				"to": "1964-07"
 			}
 		]
 	},
 	"rtt_01": {
+		"name": "Radiodiffusion nationale Télévision",
 		"ranges": [
 			{
 				"from": "1936-07",
@@ -1304,6 +1475,7 @@
 		]
 	},
 	"rtt_02": {
+		"name": "Radiodiffusion nationale Télévision",
 		"ranges": [
 			{
 				"from": "1939-08",
@@ -1312,14 +1484,16 @@
 		]
 	},
 	"t18_01": {
+		"name": "T18",
 		"ranges": [
 			{
 				"from": "2025-06",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"teleemploi_01": {
+		"name": "Télé emploi",
 		"ranges": [
 			{
 				"from": "1993-04",
@@ -1328,6 +1502,7 @@
 		]
 	},
 	"tf1_01": {
+		"name": "TF1",
 		"ranges": [
 			{
 				"from": "1975-01",
@@ -1336,6 +1511,7 @@
 		]
 	},
 	"tf1_02": {
+		"name": "TF1",
 		"ranges": [
 			{
 				"from": "1985-01",
@@ -1344,6 +1520,7 @@
 		]
 	},
 	"tf1_03": {
+		"name": "TF1",
 		"ranges": [
 			{
 				"from": "1987-01",
@@ -1352,6 +1529,7 @@
 		]
 	},
 	"tf1_04": {
+		"name": "TF1",
 		"ranges": [
 			{
 				"from": "1990-02",
@@ -1360,6 +1538,7 @@
 		]
 	},
 	"tf1_05": {
+		"name": "TF1",
 		"ranges": [
 			{
 				"from": "2006-07",
@@ -1368,14 +1547,16 @@
 		]
 	},
 	"tf1_06": {
+		"name": "TF1",
 		"ranges": [
 			{
 				"from": "2013-10",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"tf1seriesfilms_01": {
+		"name": "TF1 Séries Films",
 		"ranges": [
 			{
 				"from": "2018-02",
@@ -1384,22 +1565,25 @@
 		]
 	},
 	"tf1seriesfilms_02": {
+		"name": "TF1 Séries Films",
 		"ranges": [
 			{
 				"from": "2020-03",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"tfx_01": {
+		"name": "TFX",
 		"ranges": [
 			{
 				"from": "2018-02",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"tmc_01": {
+		"name": "Télé Monte-Carlo",
 		"ranges": [
 			{
 				"from": "1954-11",
@@ -1408,6 +1592,7 @@
 		]
 	},
 	"tmc_02": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1963-10",
@@ -1416,6 +1601,7 @@
 		]
 	},
 	"tmc_03": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1974-01",
@@ -1424,6 +1610,7 @@
 		]
 	},
 	"tmc_04": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1981-07",
@@ -1432,6 +1619,7 @@
 		]
 	},
 	"tmc_05": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1985-01",
@@ -1440,6 +1628,7 @@
 		]
 	},
 	"tmc_06": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1986-01",
@@ -1448,6 +1637,7 @@
 		]
 	},
 	"tmc_07": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1987-01",
@@ -1456,6 +1646,7 @@
 		]
 	},
 	"tmc_08": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1990-01",
@@ -1464,6 +1655,7 @@
 		]
 	},
 	"tmc_09": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "1992-09",
@@ -1472,6 +1664,7 @@
 		]
 	},
 	"tmc_10": {
+		"name": "Monte-Carlo TMC",
 		"ranges": [
 			{
 				"from": "1993-11",
@@ -1480,6 +1673,7 @@
 		]
 	},
 	"tmc_11": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "2002-03",
@@ -1488,6 +1682,7 @@
 		]
 	},
 	"tmc_12": {
+		"name": "TMC Monte-Carlo",
 		"ranges": [
 			{
 				"from": "2003-04",
@@ -1496,6 +1691,7 @@
 		]
 	},
 	"tmc_13": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "2009-03",
@@ -1504,14 +1700,16 @@
 		]
 	},
 	"tmc_14": {
+		"name": "TMC",
 		"ranges": [
 			{
 				"from": "2016-10",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	},
 	"tv6_01": {
+		"name": "TV6",
 		"ranges": [
 			{
 				"from": "1986-03",
@@ -1520,6 +1718,7 @@
 		]
 	},
 	"virgin17_01": {
+		"name": "Virgin 17",
 		"ranges": [
 			{
 				"from": "2008-01",
@@ -1528,6 +1727,7 @@
 		]
 	},
 	"w9_01": {
+		"name": "W9",
 		"ranges": [
 			{
 				"from": "2005-03",
@@ -1536,6 +1736,7 @@
 		]
 	},
 	"w9_02": {
+		"name": "W9",
 		"ranges": [
 			{
 				"from": "2010-03",
@@ -1544,6 +1745,7 @@
 		]
 	},
 	"w9_03": {
+		"name": "W9",
 		"ranges": [
 			{
 				"from": "2012-11",
@@ -1552,10 +1754,11 @@
 		]
 	},
 	"w9_04": {
+		"name": "W9",
 		"ranges": [
 			{
 				"from": "2019-11",
-				"to": "2025-12"
+				"to": null
 			}
 		]
 	}
