@@ -14,6 +14,7 @@ Certaines chaînes de télévision ne seront pas incluses dans l'historique, pou
 
 * les chaînes locales de France 3
 * les chaînes locales de BFM
+* les chaînes "+1" (qui diffusent le contenu diffusé sur la chaîne principale avec une heure de décalage)
 
 ## Fonctionnement du site
 

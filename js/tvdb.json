@@ -633,6 +633,33 @@
 			}
 		]
 	},
+	"boomerang_01": {
+		"name": "Boomerang",
+		"ranges": [
+			{
+				"from": "2003-04",
+				"to": "2005-04"
+			}
+		]
+	},
+	"boomerang_02": {
+		"name": "Boomerang",
+		"ranges": [
+			{
+				"from": "2005-05",
+				"to": "2014-12"
+			}
+		]
+	},
+	"boomerang_03": {
+		"name": "Boomerang",
+		"ranges": [
+			{
+				"from": "2015-01",
+				"to": null
+			}
+		]
+	},
 	"bsmart_01": {
 		"name": "B SMART",
 		"ranges": [
