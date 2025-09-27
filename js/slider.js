@@ -89,8 +89,12 @@ slider.addEventListener('input', render);
 filterInput.addEventListener('input', render);
 
 window.addEventListener('keydown', (e)=>{
-    if(e.key==='ArrowLeft'){ slider.value = Math.max(Number(slider.min), Number(slider.value)-1); render(); }
-    if(e.key==='ArrowRight'){ slider.value = Math.min(Number(slider.max), Number(slider.value)+1); render(); }
+    const t = e.target;
+    const tag = t && t.tagName ? t.tagName.toUpperCase() : '';
+    const isEditable = (tag==='INPUT'||tag==='TEXTAREA'||tag==='SELECT'||(t&&t.isContentEditable));
+    if (isEditable) return;
+    if(e.key==='ArrowLeft'){ slider.value = Number(slider.value)-1; render(); }
+    if(e.key==='ArrowRight'){ slider.value = Number(slider.value)+1; render(); }
 });
 
 render();
