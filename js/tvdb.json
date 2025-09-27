@@ -710,6 +710,15 @@
 		"ranges": [
 			{
 				"from": "2021-09",
+				"to": "2025-05"
+			}
+		]
+	},
+	"france4_06": {
+		"name": "France 4",
+		"ranges": [
+			{
+				"from": "2025-06",
 				"to": null
 			}
 		]
