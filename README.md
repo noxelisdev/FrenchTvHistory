@@ -8,6 +8,13 @@ Initialement, et jusqu'au [commit ajoutant les chaînes pré-D17](https://github
 
 Cette décision a été prise pour pouvoir prendre en compte les changements opérés sur la TNT, dont une nouvelle répartition des chaînes à compter du 6 juin 2025, sans créer d'incohérence dans l'affichage.
 
+### Contenus exclus
+
+Certaines chaînes de télévision ne seront pas incluses dans l'historique, pour simplifier l'affichage qui peut parfois contenir de nombreuses lignes. Cela inclut, sans s'y limiter :
+
+* les chaînes locales de France 3
+* les chaînes locales de BFM
+
 ## Fonctionnement du site
 
 Le site se base sur la date courante pour déterminer la plage de dates sélectionnable : il est possible de visualiser l'intégralité de l'historique des chaînes enregistrées, d'avril 1935 (première chaîne TV publique française) à aujourd'hui.
