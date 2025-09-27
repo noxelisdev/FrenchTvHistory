@@ -381,6 +381,15 @@
 			}
 		]
 	},
+	"bsmart_01": {
+		"name": "B SMART",
+		"ranges": [
+			{
+				"from": "2020-06",
+				"to": null
+			}
+		]
+	},
 	"c8_01": {
 		"name": "C8",
 		"ranges": [
