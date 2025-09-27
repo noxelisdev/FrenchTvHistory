@@ -129,6 +129,42 @@
 			}
 		]
 	},
+	"action_01": {
+		"name": "Action",
+		"ranges": [
+			{
+				"from": "1996-05",
+				"to": "1998-06"
+			}
+		]
+	},
+	"action_02": {
+		"name": "Action",
+		"ranges": [
+			{
+				"from": "1998-07",
+				"to": "1999-12"
+			}
+		]
+	},
+	"action_03": {
+		"name": "Action",
+		"ranges": [
+			{
+				"from": "2000-01",
+				"to": "2014-08"
+			}
+		]
+	},
+	"action_04": {
+		"name": "Action",
+		"ranges": [
+			{
+				"from": "2014-09",
+				"to": null
+			}
+		]
+	},
 	"antenne2_01": {
 		"name": "Antenne 2",
 		"ranges": [

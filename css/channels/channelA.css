@@ -34,6 +34,22 @@
     background-image: url('../../img/channels/a/ab1/ab1_09.svg');
 }
 
+#action_01 {
+    background-image: url('../../img/channels/a/action/action_01.gif');
+}
+
+#action_02 {
+    background-image: url('../../img/channels/a/action/action_02.gif');
+}
+
+#action_03 {
+    background-image: url('../../img/channels/a/action/action_03.svg');
+}
+
+#action_04 {
+    background-image: url('../../img/channels/a/action/action_04.svg');
+}
+
 #antenne2_01 {
     background-image: url('../../img/channels/a/antenne2/antenne2_01.jpg');
 }
