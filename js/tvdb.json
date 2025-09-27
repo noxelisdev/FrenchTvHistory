@@ -1061,33 +1061,6 @@
 		"ranges": [
 			{
 				"from": "2018-02",
-				"to": "2021-04"
-			}
-		]
-	},
-	"france4_04": {
-		"name": "France 4",
-		"ranges": [
-			{
-				"from": "2021-05",
-				"to": "2021-08"
-			}
-		]
-	},
-	"france4_05": {
-		"name": "France 4",
-		"ranges": [
-			{
-				"from": "2021-09",
-				"to": "2025-05"
-			}
-		]
-	},
-	"france4_06": {
-		"name": "France 4",
-		"ranges": [
-			{
-				"from": "2025-06",
 				"to": null
 			}
 		]
