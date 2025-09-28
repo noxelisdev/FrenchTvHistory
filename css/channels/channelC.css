@@ -58,6 +58,14 @@
     background-image: url('../../img/channels/c/canalplus/canalplus_02.svg');
 }
 
+#canalplusbleu_01 {
+    background-image: url('../../img/channels/c/canalplusbleu/canalplusbleu_01.svg');
+}
+
+#canalplusboxoffice_01 {
+    background-image: url('../../img/channels/c/canalplusboxoffice/canalplusboxoffice_01.png');
+}
+
 #canalpluscinema_01 {
     background-image: url('../../img/channels/c/canalpluscinema/canalpluscinema_01.svg');
 }
@@ -82,8 +90,80 @@
     background-image: url('../../img/channels/c/canalpluscinema/canalpluscinema_06.png');
 }
 
+#canalplusconfort_01 {
+    background-image: url('../../img/channels/c/canalplusconfort/canalplusconfort_01.svg');
+}
+
+#canalplusdecale_01 {
+    background-image: url('../../img/channels/c/canalplusdecale/canalplusdecale_01.svg');
+}
+
+#canalplusdecale_02 {
+    background-image: url('../../img/channels/c/canalplusdecale/canalplusdecale_02.svg');
+}
+
+#canalplusdecale_03 {
+    background-image: url('../../img/channels/c/canalplusdecale/canalplusdecale_03.svg');
+}
+
+#canalplusdecale_04 {
+    background-image: url('../../img/channels/c/canalplusdecale/canalplusdecale_04.svg');
+}
+
+#canalplusdocs_01 {
+    background-image: url('../../img/channels/c/canalplusdocs/canalplusdocs_01.png');
+}
+
+#canalplusfamily_01 {
+    background-image: url('../../img/channels/c/canalplusfamily/canalplusfamily_01.png');
+}
+
+#canalplusfamily_02 {
+    background-image: url('../../img/channels/c/canalplusfamily/canalplusfamily_02.svg');
+}
+
+#canalplusfamily_03 {
+    background-image: url('../../img/channels/c/canalplusfamily/canalplusfamily_03.svg');
+}
+
+#canalplusfoot_01 {
+    background-image: url('../../img/channels/c/canalplusfoot/canalplusfoot_01.png');
+}
+
+#canalplusgrandecran_01 {
+    background-image: url('../../img/channels/c/canalplusgrandecran/canalplusgrandecran_01.svg');
+}
+
+#canalplusgrandecran_02 {
+    background-image: url('../../img/channels/c/canalplusgrandecran/canalplusgrandecran_02.png');
+}
+
 #canalplusjaune_01 {
     background-image: url('../../img/channels/c/canalplusjaune/canalplusjaune_01.svg');
+}
+
+#canalpluskids_01 {
+    background-image: url('../../img/channels/c/canalpluskids/canalpluskids_01.svg');
+}
+
+#canalpluskids_02 {
+    background-image: url('../../img/channels/c/canalpluskids/canalpluskids_02.png');
+}
+
+#canalpluslive_01 {
+    background-image: url('../../img/channels/c/canalpluslive/canalpluslive_01.svg');
+}
+
+#canalpluspremierleague_01 {
+    background-image: url('../../img/channels/c/canalpluspremierleague/canalpluspremierleague_01.png');
+}
+
+#canalplusseries_01 {
+    background-image: url('../../img/channels/c/canalplusseries/canalplusseries_01.svg');
+}
+
+#canalplusseries_02 {
+    background-image: url('../../img/channels/c/canalplusseries/canalplusseries_02.png');
 }
 
 #canalplussport_01 {
@@ -108,6 +188,10 @@
 
 #canalplussport_06 {
     background-image: url('../../img/channels/c/canalplussport/canalplussport_06.png');
+}
+
+#canalplussport360_01 {
+    background-image: url('../../img/channels/c/canalplussport360/canalplussport360_01.png');
 }
 
 #canalplusvert_01 {
