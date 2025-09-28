@@ -696,6 +696,96 @@
 			}
 		]
 	},
+	"canalj_01": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "1985-12",
+				"to": "1989-04"
+			}
+		]
+	},
+	"canalj_02": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "1989-05",
+				"to": "1990-11"
+			}
+		]
+	},
+	"canalj_03": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "1990-12",
+				"to": "1996-09"
+			}
+		]
+	},
+	"canalj_04": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "1996-10",
+				"to": "1999-10"
+			}
+		]
+	},
+	"canalj_05": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "1999-11",
+				"to": "2000-11"
+			}
+		]
+	},
+	"canalj_06": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "2000-12",
+				"to": "2007-08"
+			}
+		]
+	},
+	"canalj_07": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "2007-09",
+				"to": "2009-08"
+			}
+		]
+	},
+	"canalj_08": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "2009-09",
+				"to": "2014-12"
+			}
+		]
+	},
+	"canalj_09": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "2015-01",
+				"to": "2019-08"
+			}
+		]
+	},
+	"canalj_10": {
+		"name": "Canal J",
+		"ranges": [
+			{
+				"from": "2019-09",
+				"to": null
+			}
+		]
+	},
 	"canalplus_01": {
 		"name": "Canal+",
 		"ranges": [
