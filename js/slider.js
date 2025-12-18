@@ -22,7 +22,7 @@ function computeSiteBounds(logos, fallbackEndYM = SITE_END_YM){
     }
     const minFrom = allFrom.reduce((acc,ym)=> ymToIndexFrom(SITE_START_YM, ym) < ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, SITE_START_YM);
     const maxTo   = allTo.reduce((acc,ym)=> ymToIndexFrom(SITE_START_YM, ym) > ymToIndexFrom(SITE_START_YM, acc) ? ym : acc, fallbackEndYM);
-    return { minIndex: ymToIndexFrom(SITE_START_YM, minFrom), maxIndex: ymToIndexFrom(SITE_START_YM, maxTo) - 1 };
+    return { minIndex: ymToIndexFrom(SITE_START_YM, minFrom), maxIndex: ymToIndexFrom(SITE_START_YM, maxTo) };
 }
 
 function monthLabel(ym){
